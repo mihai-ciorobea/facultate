@@ -1,0 +1,393 @@
+
+1.
+(a) Why bloomberg?
+(b) Tell me the toughest problem you faced and how you solved it?
+(c) What would your previous managers tell about you?
+(d) If you have other offers what will you look for in the offer to make a decision? 
+
+__________________________________________________________
+
+2.
+
+Implement a Garbage Collector for C++
+
+__________________________________________________________
+
+3. [Done]
+Assume that we have a string being passed to a function with a char pointer, write a pgm to reverse the string? 
+
+________________________________
+
+4.
+How would you implement interfaces in c++?
+
+__________________________________
+
+5. [Done]
+
+Write a small program that takes two strings as input and prints two
+numbers (n1 and n2) as output, where:
+
+n1 is the number of letters in the first string that each has a match in
+the second string in the same position in the string.
+n2 is the number of letters in the first string that each has a match in
+the second string but does not have a match in the same position.
+
+Note that each match is unique. That is, no letter in either string can
+participate in more than one match.
+I.e., each letter instance can contribute at most once to n1+n2.
+
+Some examples:
+abc abcd -> 3 0
+aab aacd -> 2 0
+aba aab -> 1 2
+aba bab -> 0 2 4 
+_______________________________________
+
+6. [Done]
+How will you find the longest palindrome in a string? I.e. if the string is XMADAMYX, Your code should print MADAM. 
+
+_______________________________________
+
+7.
+
+Tell me one time when you thought you were doomed but you came out of the problem and how? 
+
+_________________________________________
+
+8.
+
+Puzzle: You've got an 8×8 checkerboard and a bunch of dominoes that each fit nicely on two squares of the checkboard. You can easily tile the entire checkerboard with these dominoes. Now say that you remove two squares, one at one corner and the other at the opposite corner. You're left with 62 squares. Can you tile this with the dominoes? If so, show how. If not, prove why not.
+
+_________________________________________
+
+9.[Done]
+one person can finish painting a house in 6 days, another in 4 days. if they work together, how long would it take to finish painting?
+
+______________________________________
+
+10.
+I was given a set of data structures and a set of complexities for search and insert operations, and asked to fill in the right ones.
+
+Before doing that I was asked, "given the possibility that a mad monkey was asked to match the data structures with the corresponding complexities what is the probability of him getting it right, assuming he could pick the same complexity over and over again?"
+
+___________________________________-
+
+11.[Done]
+
+How do u copy the reversed string into another variable i.e. if we have 'hello' the other variable should have
+
+'olleh'?
+
+_____________________________________
+
+12. [Done]
+
+given char arr[100]. what is strlen(arr) and what would printf("%s", arr) do?
+
+______________________________________
+
+13. [Done]
+
+Write a program to detect if a number is a palindrome 
+
+_______________________________________
+
+14.[WTF]
+
+Gave me a piece of code...which is as follows...
+
+Class A
+{
+int x;
+}
+
+Class B
+{
+int y;
+}
+
+Class C : public A, B
+{
+int z;
+}
+
+A *aa;
+B *bb;
+C cc;
+
+aa = &cc;
+bb = &cc;
+
+Tell me do aa and bb point to the same address? If yes or no....why?
+
+______________________________
+
+15. [CRAP]
+
+Write simple state machine code in C 
+
+_______________________________
+
+16. [Done]
+
+Remove a fixed character from a C-string 
+
+______________________________
+
+=====> 17. [Done]
+
+Write code to reverse the order of words in a sentence 
+
+____________________________________
+
+18. [Done]
+
+Write a program to multiply 2 really long numbers
+
+____________________________________
+
+19. [Done]
+Write code to find the sqrt of a number without using any library functions
+
+______________________________________
+
+20. [Done]
+
+Write code to determine if a given square matrix is a magic square (each row, column, and diagonal has the same sum)
+
+_________________________________________
+
+21. [Done]
+
+Write code to find out whether stack addresses will be increasing or decreasing in memory?
+(Stack which stores local variables in a method etc..) 3
+
+
+Computer Architecture & Low Level [more]
+Why is Virtual Memory important? 2 
+
+_____________________________________________
+
+22.
+
+How does the compiler know which virtual table to point to when the base class pointer points to its derided class object
+
+____________________________________________
+
+23. [Done]
+
+What's the difference between malloc and calloc? What's static methtod in C? 
+
+____________________________________________
+
+24. [Done]
+
+3) What are memory leaks ? what tools you have used ?
+4) Whats the size of integer, double - basic questions ?
+5) How will you determine the size of an variable without using sizeof operator ?
+Ans: Basically get the difference on the pointer address for the current and the incremented position and storing the difference on data type ptrdiff_t. 6
+
+____________________________________
+
+25. [Done]
+
+6) whats the difference between malloc and calloc ?
+7) whats the difference between new and malloc ?
+8) whats a virtual function ? 
+
+_________________________________
+
+26. [Done]
+
+How much memory will the following code take.
+
+void example
+{
+int bytes; // 4 bytes
+virtual functionName{ }; // 4 bytes
+} 
+
+[Done] - linear hash table
+Data structure [more]
+how do u use hash table to create phone book?How do u handle collisions in hash table? 
+
+___________________________
+
+27. [Done]
+
+For a balanced binary search tree find the number of leaf nodes for a tree with depth 10.
+
+___________________
+
+28. [Done]
+
+1) Difference between application interface and programming interface.
+2) Virtual functions. How does a compiler know which function to use(virtual funtion table)
+3) QUestions on object oriented programming.
+4) QUestions on projects etc...
+5) Difference between const pointer and pointer to const. 
+________________________
+
+29. [Done]
+
+Basic questions about fork and debugging a child process
+How will you get a process listing in a unix box. basically the shell command with options. More questions on various options like getting the process list for a user.
+Unix command to a kill a process ?
+Whats a defunct process ?
+How to kill all child processes of a particular parent ? 
+
+____________________________
+
+30. [Done]
+
+C and C++
+
+1) Whats the difference between a pointer and a reference variable ??
+2) whats a copy constructor ? Usage. Diff between shallow and deep copy.
+why the significance of ambersand in the copy constructor ? what will happen if there is no ambersand ? 
+
+_____________________________
+
+31.
+
+(a) Diff between C++ and java
+(b) What is garbage collection
+(c) Why is java secure?
+(d) If you were to implement a garbage collector in C++ how will you do it? 
+
+_______________________
+
+32.
+data structures: to sort some elements, what data structure would u choose? would u choose hashtable, why not?
+
+__________________________
+
+33.
+
+Imagine you have a listing of student names and marks. Give the best data structure to store the same. Now imagine that you have range of student names starting from a to l, m to z. Use a data structure for such a layout. 1
+
+
+pointers & references [more]
+what is the difference between pointers and references? When do u prefer one over the other?
+
+What is memory leak?
+
+
+Terminology & Trivia [more]
+What is difference between Java and C++. 3 
+
+_____________________________
+
+34.
+
+What's the difference between Linked List and ArrayList? 
+
+____________________________
+
+35.
+
+Asked me basic unix commands (wc, grep, ls, ps, top, find) and which unix text editor I use. 
+
+_________________________
+36.
+
+Describe a binary tree, its properties, and name all of its traversal algorithms. 1 
+
+__________________________
+
+37.
+
+What is deep copy in C++ ? When would you use it ?
+You will use deep copy when you have dynamically allocated members in a class. Do not forget to mention that you need a corresponding destructor to deallocate.
+________________________________
+
+38.
+
+Difference between reference and pointers? How can reference go bad?
+
+_________________________
+
+39.
+
+Difference between malloc and new. 
+
+_______________________
+
+40.
+
+Some questions about STL? How can one store different type of objects in vectors or list? 
+
+___________________________
+
+41.
+
+Let us assume there is variable size (size cannot be determined) of string data coming over a network how will u
+
+declare a char to display the string?
+My Answere>Would use a pointer char rather than a fixed char like "char a[50];".. 
+
+_________________
+
+42.
+
+What is a delegate in C#? 
+
+_______________
+
+43.
+
+Interviewer> Since STACK does push and pop, so what if the stack pop's the Global variable?
+My Answere> Variables are poped only if it's out of scope..
+(My answere was wrong....he said that the Global variables are not stored in Stack!!) 
+
+_____________________
+
+44.
+
+What's the difference between Events calling delagates in C# and Pointer calling a function in C++?
+
+_________________________
+
+45.
+What's a template? 
+
+_____________________
+
+46.
+
+Does delegates have performance improvements or any advantages over functions calling in c++
+
+___________________________
+
+47. [Done]
+
+What's the size of a empty class
+class { }
+
+1 byte
+________________________
+
+48.
+
+Inline function 
+
+_______________________
+
+49.
+
+Explain what a virtual function and virtual table is 
+
+___________________
+
+50.
+
+Explain several different CPU scheduling algorithms. 
+
+_________________
+
+51.
+
+What's a virtual destructor?
+
+

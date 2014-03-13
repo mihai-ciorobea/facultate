@@ -1,0 +1,180 @@
+form.panel{
+	padding: 20px;
+	border: 1px solid #f3f3f3;
+	background: #fafafa;
+}
+
+form legend{
+    display: block;
+    font-family: "PT Sans Narrow",sans-serif;
+    font-size: 18px;
+    color: #333333;
+    border-bottom: 1px solid #f3f3f3;
+    line-height: 18px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+form.panel label{
+	color: #a0a0a0;
+	font-family: "PT Sans Narrow",sans-serif;
+	font-size: 14px;
+}
+form.panel label.not-found{
+    margin-top: 30px;
+}
+
+form.panel select,
+form.panel div.locations-wrap,
+form.panel input[type="text"]{
+	border: 1px solid #d8d8d8;
+	color: #666666;
+	font-family: Verdana,sans-serif;
+	font-size: 11px;
+	margin: 0px 0px 20px 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+form.panel div.locations-wrap{
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 2px 2px;
+    margin-right: 1px;
+    height: 24px;
+}
+form.panel span.locations{
+    background-color: #ffffff;
+    color: #d3d3d3;
+    display: inline-block;
+    height: 24px;
+    overflow: hidden;
+}
+
+form.panel span.locations span.text{
+    display: block;
+    padding: 3px 3px 15px 3px;
+}
+form.panel span.locations span.text.hide{
+    display: none;
+}
+
+form.panel span.locations span.wrapper{
+    width: 600px;
+    height: 30px;
+    display: block;
+}
+
+form.panel span.locations span.button{
+    background-image: url('../images/remove.png');
+    background-position: right center;
+    background-repeat:  no-repeat;
+    margin: 0px 3px 5px 0px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding-right: 26px;
+    
+}
+form.panel .padding-left{
+	margin-left: 20px;
+}
+form.panel .small-width input[type="text"]{
+	width: 80px;
+}
+form.panel .small-width select{
+	width: 94px;
+}
+
+.block.large form.panel span.large-width span.locations{
+    width: 400px;
+}
+.block.small form.panel span.large-width span.locations{
+    width: 250px;
+}
+form.panel input[type="text"]{
+	width: 138px;
+}
+form.panel select{
+	width: 152px;
+}
+
+form.panel div.district-loading{
+    margin-top: 29px;
+    display: none;
+}
+
+.popup-panel{
+    background: #fafafa;
+    border: 1px solid #f3f3f3;
+    display: none;
+    padding: 15px 10px 5px 10px;
+    position: absolute;
+    margin: 5px 0px 0px 0px;
+    height: auto;
+    -moz-box-shadow: 0px 0px 10px #ededed;
+    -webkit-box-shadow: 0px 0px 10px #ededed;
+    box-shadow: 0px 0px 10px #ededed;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=0, Color='#ededed')";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=0, Color='#ededed');
+}
+
+aside.push-right .popup-panel{
+    margin: 5px 216px 0px -216px;
+}
+
+form div.coll{
+    float:left;
+    margin: 0px 10px 0px 0px;
+    width: 215px;
+}
+
+form div.coll label{
+    padding-left: 20px;
+}
+
+form div.coll label input{
+    position: absolute;
+    margin: 5px 20px 0px -20px
+}
+
+form div.coll div.sub-locations{
+    margin-left: 20px;
+}
+form.panel > div{
+    margin-top: 20px;
+}
+
+form.panel div.panel-title{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+form.panel legend{
+    color: #dedede;
+}
+form.panel legend span{
+    color: #333333;
+}
+form.panel legend a{
+    color: #9cbc20;
+}
+form.panel legend a:hover{
+    color: #afd324;
+}
+
+form.panel#advanced-searchform legend a,
+form.panel#simple-searchform legend span{
+    margin-right: 10px;
+}
+
+form.panel#advanced-searchform legend span,
+form.panel#simple-searchform legend a{
+    margin-left: 10px;
+}
+
+form.panel#advanced-searchform div span.push-left label{
+    font-family: Verdana,sans-serif;
+    font-size: 16px;
+    color: #333333;
+    
+} 

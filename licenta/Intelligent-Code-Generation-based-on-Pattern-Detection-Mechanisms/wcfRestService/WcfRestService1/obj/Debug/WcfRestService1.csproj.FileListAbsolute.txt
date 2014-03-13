@@ -1,0 +1,10 @@
+C:\Mihai\Licenta\Licenta Compilator\WcfRestService1\bin\WebService.dll
+C:\Mihai\Licenta\Licenta Compilator\WcfRestService1\bin\WebService.pdb
+C:\Mihai\Licenta\Licenta Compilator\WcfRestService1\obj\Debug\WebService.dll
+C:\Mihai\Licenta\Licenta Compilator\WcfRestService1\obj\Debug\WebService.pdb
+C:\Mihai\Licenta\Licenta Compilator\WcfRestService1\bin\Licenta Compilator.dll
+C:\Mihai\Licenta\Licenta Compilator\WcfRestService1\bin\ICSharpCode.NRefactory.CSharp.dll
+C:\Mihai\Licenta\Licenta Compilator\WcfRestService1\bin\ICSharpCode.NRefactory.dll
+C:\Mihai\Licenta\Licenta Compilator\WcfRestService1\bin\Mono.Cecil.dll
+C:\Mihai\Licenta\Licenta Compilator\WcfRestService1\bin\Licenta Compilator.pdb
+C:\Mihai\Licenta\Licenta Compilator\WcfRestService1\obj\Debug\ResolveAssemblyReference.cache

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html xmlns:fb="http://ogp.me/ns/fb#" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="http://localhost/generate/style.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="http://localhost/generate/button.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="http://localhost/generate/sort.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="http://localhost/generate/inputSubmit.css" type="text/css" media="all"/>
+    <script type='text/javascript' src='http://localhost/media/js/jquery.min.js'></script>
+    <script type='text/javascript' src='http://localhost/myJS/generate.js'></script>
+    <script type='text/javascript' src='http://localhost/myJS/topBar.js'></script>
+    <script type='text/javascript' src='http://localhost/myJS/jquery-sortable.js'></script>
+    <script type='text/javascript' src='http://localhost/myJS/template.js'></script>
+    <style type="text/css">
+    input:focus{
+        outline: 0;
+    }
+    </style>
+
+    <script>
+        $(document).ready(function(){
+           getTemplate();
+        });
+
+        updateLinesUrl = "final/setTemplateText";
+
+    </script>
+</head>
+<body>
+
+<div class="under-construction">
+    <div class="pos-bottom">
+        <footer>
+            <div style="text-align: center; ">
+                <span style="float: left;"> <input type="submit" class="inputSubmit" value="Back" style="top: 11px; ;" onclick="history.back();">        </span >
+                <input class="inputSubmit" id="renameFrom" value="From.." style="font-size: 10px;top: 11px;width: 160px!important;background-size: 160px 31px;"
+                        onfocus="if (this.value == 'From..') {this.value = '';}"
+                        onblur="if (this.value == '' ) { this.value = 'From..'; removeHighlight();} else { highlight(this.value);}" 
+                        onkeyup="if (this.value != '' ) {highlight(this.value)} else {removeHighlight()}"  >
+                <span style=""> <input type="submit" class="inputSubmit" value="Rename" style="top: 11px;" onclick="rename();">        </span >
+                <input class="inputSubmit" id="renameTo"value="To.." style="font-size: 10px;top: 11px;width: 160px!important;background-size: 160px 31px;"
+                    onfocus="if (this.value == 'To..') {this.value = '';}"
+                    onblur="if (this.value == '' ) { this.value = 'To..';}" >
+                <span style="float: right;"> <input type="submit" class="inputSubmit" value="Save" style="top: 11px;" onclick="saveToComputer();"> </span>
+            </div>
+        </footer>
+    </div>
+
+    <div class="pos-center" style="left: 53.5%;">
+        <div class="shadow" style="display: inline-table; padding-bottom: 50px !important;">
+            <div class="content-underconstruction generate" style="display: inline-table; width: 810px !important;" >
+                <h1 class="site-title title" style="font-size: 20px; padding: 0px;">
+                    <input class="templateName" type="text"
+                           value=""
+                           onfocus="if (this.value == '') {this.value = '';}"
+                           onblur="if (this.value == '' ) { this.value = '';} else updateTemplateName();">
+                </h1>
+                <table style="width: 100%;color: white;text-align: left;">
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+<script type="text/javascript">
+    function getTemplate(){
+        getText("final/getTemplateText" , generateSuccess, error);
+    }
+
+    function generateSuccess(data){
+        data = data.replace(/ /g,"&nbsp;");
+        var lines = data.split("\n");
+        var table = $(".generate tbody");
+        if ( lines[0] != '' )
+            $(".generate .templateName").val(lines[0]);
+        for(var i = 1; i < lines.length; i++){
+            table.append(tableRow2(i, lines[i]));
+        }
+
+        addButtonShowHide(".generate");
+        $(".generate tbody").sortable(
+            {
+                group: 'draggable',
+                onDrop: function  (item, targetContainer, _super) {
+                    updateTemplateLines();
+                    _super(item, targetContainer);
+                }
+            });
+        makeTemplateLinesEditable();
+
+    }
+
+
+function tableRow2(index, text){
+
+    return '<tr>' +
+        '    <td style="width: 30px; height: 20px;">' +
+        index +
+        '.</td>' +
+        '   <td class="mid" style="display: block; width: 700px; height: 20px; overflow: hidden; position: relative; top: 7px;">' +
+        text +
+        '   </td>' +
+        '   <td style="width: 50px;">' +
+        '       <input type="submit" class="button remove" value="Remove" style="width: 65px; font-size: 12px; display: none; " onclick="removeLine(this)">' +
+        '       </td>' +
+        '   </tr>';
+
+}
+
+
+
+function saveToComputer () {
+    
+    var tds = $("td.mid");
+    $("html").remove()
+    tds.each(function(id, el){
+        document.write($(el).html() + "</br>");
+    });
+}
+
+function removeHighlight() {
+    
+    var find = '<mark>';
+    var re = new RegExp(find, 'g');
+
+    var find2 = '</mark>';
+    var re2 = new RegExp(find2, 'g');
+
+    $(".mid").each(function(id, el){
+    
+        var text =  $(el).html().replace(re, '');
+        $(el).html(text.replace(re, ''));
+    });
+}
+
+function highlight (text) {
+    removeHighlight();
+    var term = text.replace(/(\s+)/,"(<[^>]+>)*$1(<[^>]+>)*");
+    $(".mid").each(function(id, el){
+        var src_str = $(el).html();
+        var pattern = new RegExp(
+                                "( |<|,|>|\\.|\\?|/|;|:|'|\"|{|[|]|}|!|@|#|$|%|^|&|\\*|\\(|\\)|-|=|\\+)"
+                                +"(" +term+")"
+                                +"( |<|,|>|\\.|\\?|/|;|:|'|\"|{|[|]|}|!|@|#|$|%|^|&|\\*|\\(|\\)|-|=|\\+)", "g");
+        src_str = src_str.replace(pattern, "$1<mark>$2</mark>$3");
+        src_str = src_str.replace(/(<mark>[^<>]*)((<[^>]+>)+)([^<>]*<\/mark>)/,"$1<mark>$2</mark>$4");
+        $(el).html(src_str);
+    });
+}
+
+function rename () {
+    removeHighlight();
+    var term = $("#renameFrom").val().replace(/(\s+)/,"(<[^>]+>)*$1(<[^>]+>)*");
+    $(".mid").each(function(id, el){
+        var src_str = $(el).html();
+        var pattern = new RegExp(
+                                 "( |<|,|>|\\.|\\?|/|;|:|'|\"|{|[|]|}|!|@|#|$|%|^|&|\\*|\\(|\\)|-|=|\\+)"
+                                +"(" +term+")"
+                                +"( |<|,|>|\\.|\\?|/|;|:|'|\"|{|[|]|}|!|@|#|$|%|^|&|\\*|\\(|\\)|-|=|\\+)", "g");
+        src_str = src_str.replace(pattern, "$1"+ $("#renameTo").val() +"$3");
+        //src_str = src_str.replace(/(<mark>[^<>]*)((<[^>]+>)+)([^<>]*<\/mark>)/,"$1<mark>$2</mark>$4");
+        $(el).html(src_str);
+    });
+
+    updateTemplateLines();
+}
+</script>
+</body>
+</html>

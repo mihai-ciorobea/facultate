@@ -1,0 +1,34 @@
+body{
+    background-color: #000000;
+    background-image: url("../images/background.jpg");
+	background-position: center center;
+	background-attachment:fixed;
+}
+hgroup a,
+hgroup a:hover,
+header nav > ul > li > a,
+header nav div > ul > li > a,
+header nav > ul > li:hover > a,
+header nav div > ul > li:hover > a,
+footer, footer a, footer a:hover,
+div.under-construction .content-underconstruction .site-title,
+div.under-construction .content-underconstruction p.description {
+color: #ffffff;
+}
+a,
+div.widget ul li a:hover{
+    color: #b20607;
+}
+/* CONTENT */
+
+div#comments p.form-submit input[type="submit"],
+div.widget_newsletter form button[type="submit"],
+article.hentry input[type="button"],
+article.hentry input[type="submit"],
+article.hentry button,
+div.widget_post_meta ul li span.post-tag,
+div.widget a[class*="tag-link-"],
+a.prev.page-numbers,
+a.next.page-numbers {
+background-color: #b20607;
+}

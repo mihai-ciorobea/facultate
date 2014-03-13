@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:fb="http://ogp.me/ns/fb#" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>my wooden - single</title>
+    <meta name="robots"  content="index, follow"/>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="profile" href="http://gmpg.org/xfn/11"/>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all"/>
+    <script type='text/javascript' src='media/js/jquery.min.js'></script>
+    <script type='text/javascript' src='media/js/functions.js'></script>
+
+    <!--For range-->
+    <link rel="stylesheet" class="umbrui" href="umbrUI-gh-pages/elements/range.css">
+
+</head>
+<body>
+<div class="under-construction">
+    <div class="pos-center">
+        <div class="shadow">
+            <div class="content-underconstruction">
+
+                <center>
+
+                    <h1 class="site-title">Code Generation</h1>
+
+                </center>
+                <!--<p class="description">premium html template</p>-->
+
+
+                <section style="position: relative; top: 20%;">
+                    <div class="type">
+                        <input type="checkbox" value="None" id="type" name="check" />
+                        <label for="type"></label>
+                    </div>
+                </section>
+                <script>
+                    $('#type').change(function() {
+                        if ($("#type").attr('checked')){
+                            //checked -- use existing
+                            $("#generate").fadeOut(300, function(){$("#instantiate").fadeIn(300);});
+
+                        }   else {
+                            //not-checked -- generate
+                            $("#instantiate").fadeOut(300, function(){$("#generate").fadeIn(300);});
+                        }
+                    });
+                </script>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="pos-bottom">
+        <footer>
+            <div>
+                <p><span>Copyright &copy; 2013. Ciorobea Mihai</p>
+            </div>
+        </footer>
+    </div>
+</div>
+</body>
+</html>

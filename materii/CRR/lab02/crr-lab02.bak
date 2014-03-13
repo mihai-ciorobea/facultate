@@ -1,0 +1,90 @@
+; 1 = not
+; 2 = and 
+; 3 = or
+; 4 = implica
+; 5 = echivalent
+
+; ex1
+; primeste o expresie si un set de valori 
+; intoarce #t sau #f
+; ex: (compute '(q 2 p) '( (p #f) (q #t) )) => #f
+(define (compute expr valori) 
+  (cond ((not (list? expr )) (valoare expr valori))
+        ((eq? (length expr) 1) (compute (car expr) valori))
+        ((eq? (length expr) 2) (not (compute (cadr expr) valori)))
+        ((eq? (length expr) 3) 
+         (let ((p (compute (car expr) valori))
+               (op (cadr expr))
+               (q (compute (caddr expr) valori))) 
+           (cond ((eq? op 2) (and p q))
+                 ((eq? op 3) (or p q))
+                 ((eq? op 4) (or (not p) q))
+                 ((eq? op 5) (and (or (not p) q) (or (not q) p)))
+                 )
+           ) 
+         )
+        )
+  )
+
+
+; intoarce valoarea unei variabile
+; (valoare 'p '( (p #f) (q #t)) => #f
+(define (valoare epxr valori)
+  (cadr (assv epxr valori))
+  )
+
+
+
+
+; =============================================================================
+
+; ex2: primeste o expresie si o lista de variabile => #t sau #f daca e tautologie sau nu
+(define (tautologie expr l) 
+  ;(display (map (lambda (valori) (compute expr valori)) (allValues)))
+  (list-equel? (map (lambda (valori) (compute expr valori)) (allValues l)))
+  )
+
+(define (list-equel? expr)
+  (cond ((not (list? expr)) #t)
+        ((eq? (length expr) 1) (and #t (car expr)))
+        ((> (length expr) 1) (and (eq? (car expr) (cadr expr)) (list-equel? (cdr expr))))
+        )
+  )
+
+(define (allValues l)  
+  (cond ((eq? (length l) 0) '())
+        ;add (q #f) and (q #t) to the result of the rest
+        ((eq? (length l) 1) (list (append l '(#f)) (append l '(#t)) ))
+        (else 
+         (append 
+          (map (lambda (subSolution) (append (list (append (list (car l)) '(#t))) (list subSolution))) (allValues (cdr l)))
+          (map (lambda (subSolution) (append (list (append (list (car l)) '(#f))) (list subSolution))) (allValues (cdr l)))
+          )
+         )
+        )
+  )
+
+; =============================================================================
+
+
+; ex3 - se da o expresie => expresia folosind doar 1(not), 2(si) sau 3(sau)
+(define (transform expr) 
+  (cond ((not (list? expr )) expr)
+        ((eq? (length expr) 1) (list (transform (car expr))))
+        ((eq? (length expr) 2) (list '1 (transform (cadr expr))))
+        ((eq? (length expr) 3) 
+         (let ((p (transform (car expr)))
+               (op (cadr expr))
+               (q (transform (caddr expr)))) 
+           (cond ((eq? op 2) (list p '2 q))
+                 ((eq? op 3) (list p '3 q))
+                 ((eq? op 4) (list (list '1 p) '3 q))
+                 ((eq? op 5) (list (list (list 1 p) 3 q) '2 (list (list '1 q) '3 p))
+                  ;(and (or (not p) q) (or (not q) p))
+                  )
+                 )
+           ) 
+         )
+        )
+  )
+

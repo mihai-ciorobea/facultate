@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html xmlns:fb="http://ogp.me/ns/fb#" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="http://localhost/generate/style.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="http://localhost/generate/button.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="http://localhost/generate/sort.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="http://localhost/generate/inputSubmit.css" type="text/css" media="all"/>
+    <script type='text/javascript' src='http://localhost/media/js/jquery.min.js'></script>
+    <script type='text/javascript' src='http://localhost/myJS/generate.js'></script>
+    <script type='text/javascript' src='http://localhost/myJS/topBar.js'></script>
+    <script type='text/javascript' src='http://localhost/myJS/jquery-sortable.js'></script>
+    <script type='text/javascript' src='http://localhost/myJS/template.js'></script>
+
+
+    <script>
+        $(document).ready(function(){
+            populateProgram1();
+            populateProgram2();
+            generateProgram();
+        });
+    </script>
+</head>
+<body>
+
+<div class="under-construction">
+    <div class="pos-bottom">
+        <footer>
+            <div>
+                <div style="float: left;"> <input type="submit" class="inputSubmit" value="Back" style="top: 11px; left: -163px;" onclick="history.back();"> </div>
+                <section style="padding-top: 10px;">
+                    <div class="defaultProgram" style="height: 30px;">
+                        <input type="checkbox" value="None" id="defaultProgram" name="check2" checked />
+                        <label for="defaultProgram"></label>
+                    </div>
+                </section>
+                <div style="float: right;"> <input type="submit" class="inputSubmit" value="Next" style="top: -29px;left: 110px;" onclick="save();"> </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="pos-center">
+        <div class="shadow" style="display: inline-table;">
+            <div class="content-underconstruction file1" style="display: inline-table;" >
+                <h1 class="site-title title" style="font-size: 20px; padding: 0px;" ></h1>
+                <table style="width: 100%;color: white;text-align: left;">
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="pos-center2">
+        <div class="shadow" style="display: inline-table;">
+            <div class="content-underconstruction generate" style="display: inline-table;" >
+                <h1 class="site-title title" style="font-size: 20px; padding: 0px;">
+                    <input class="templateName" type="text"
+                           value="Template name.."
+                           onfocus="if (this.value == 'Template name..') {this.value = '';}"
+                           onblur="if (this.value == '' ) { this.value = 'Template name..';} else updateTemplateName();">
+                </h1>
+                <table style="width: 100%;color: white;text-align: left; ">
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="pos-center3">
+        <div class="shadow" style="display: inline-table;">
+            <div class="content-underconstruction file2" style="display: inline-table;" >
+                <h1 class="site-title title" style="font-size: 20px; padding: 0px;"></h1>
+                <table style="width: 100%;color: white;text-align: left;">
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+</body>
+</html>

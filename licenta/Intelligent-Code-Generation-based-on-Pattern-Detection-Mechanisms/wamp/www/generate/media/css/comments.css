@@ -1,0 +1,97 @@
+div#comments h3{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+div#comments ol,
+div#comments ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+div#comments ol li{
+    border-top: 1px solid #f2f2f2;
+    padding: 20px 0px 0px 0px;
+}
+
+div#comments ol ul{
+    margin-left: 65px;
+}
+div#comments header{
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
+
+div#comments header img{
+    float: left;
+    margin-right: 15px;
+}
+
+div#comments header cite{
+    font-family: "Yanone Kaffeesatz",sans-serif;
+    font-size: 18px;
+    color: #333333;
+    display: block;    
+}
+
+div#comments header time{
+    color: #888888;
+    display: inline-block;
+    font-family: "PT Sans Narrow",sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+div#comments ol li p{
+    color: #666666;
+    font-family: Verdana,sans-serif;
+    font-size: 12px;   
+}
+div#comments ol li span.comment-replay,
+div#comments ol li span.comment-replay a{
+    display: block;
+    float: right;
+    width: 18px;
+    height: 16px;
+}
+div#comments ol li span.comment-replay a{
+    background-image: url("../images/comments.png");
+    background-position: 0px -16px;
+    text-indent: 100px;
+	overflow: hidden;
+	opacity: 0.4;
+    filter:alpha(opacity=40);
+}
+div#comments ol li span.comment-replay a:hover{
+    opacity: 1;
+    filter:alpha(opacity=100);
+}
+div#comments div#respond p.comment-notes{
+    font-family: "PT Sans Narrow",sans-serif;
+    color: #666666;
+}
+div#comments div#respond p.comment-form-author input[type="text"]{
+    background-image: url("../images/comment-form.author.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    height: 35px;
+    padding: 3px 3px 3px 55px;
+}
+div#comments div#respond p.comment-form-email input[type="text"]{
+    background-image: url("../images/comment-form.email.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    height: 35px;
+    padding: 3px 3px 3px 55px;
+}
+div#comments div#respond p.comment-form-url input[type="text"]{
+    background-image: url("../images/comment-form.url.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    height: 35px;
+    padding: 3px 3px 3px 55px;
+}
+
+div#comments div#respond p.comment-form-comment textarea{
+    width: 98%;
+}

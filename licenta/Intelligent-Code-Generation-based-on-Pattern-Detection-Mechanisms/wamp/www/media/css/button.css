@@ -1,0 +1,102 @@
+/* ADDITIONAL */
+a.prev.page-numbers,
+a.next.page-numbers,
+div.widget_post_meta ul li span.post-tag,
+div.widget a[class*="tag-link-"],
+button#bbp_topic_submit[type="submit"],
+input#ws-plugin--s2member-profile-submit[type="submit"],
+input#submit[type="submit"],
+button#user-submit[type="submit"],
+div.widget_newsletter form button[type="submit"],
+article.hentry input[type="button"],
+article.hentry input[type="submit"],
+article.hentry button,
+.button{
+	display: inline-block;
+	line-height: 12px;
+	font-size: 12px;
+	padding:10px 30px 10px 30px;
+	margin:0px 0px 0px 0px;
+	border: none;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+div.widget_newsletter form button[type="submit"]:hover,
+a.next.page-numbers:hover,
+a.prev.page-numbers:hover,
+button#bbp_topic_submit[type="submit"]:hover,
+input#ws-plugin--s2member-profile-submit[type="submit"]:hover,
+input#submit[type="submit"]:hover,
+button#user-submit[type="submit"]:hover,
+div.widget a[class*="tag-link-"]:hover,
+div.widget_post_meta ul li span.post-tag:hover,
+article.hentry input[type="button"]:hover,
+article.hentry input[type="submit"]:hover,
+article.hentry button:hover,
+.button:hover{
+	cursor: pointer;
+}
+
+button#bbp_topic_submit[type="submit"],
+input#ws-plugin--s2member-profile-submit[type="submit"],
+.button.large{
+	font-family: "PT Sans Narrow",sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 400;
+	padding:13px 30px 13px 30px;
+}
+.button.large i{
+	margin-right: 15px;
+}
+.button.fix{
+	display: block;
+	height: 35px;
+	font-size: 12px;
+	line-height: 12px;
+	padding:10px 0px;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+}
+a.prev.page-numbers,
+a.next.page-numbers,
+div.widget_post_meta ul li span.post-tag,
+div.widget a[class*="tag-link-"],
+.button.small{
+	font-size: 14px !important;
+	padding:5px 15px;
+}
+
+/* SKINS */
+div#comments  p.form-submit input[type="submit"],
+div.widget_newsletter form button[type="submit"],
+article.hentry input[type="button"],
+article.hentry input[type="submit"],
+article.hentry button,
+div.widget_post_meta ul li span.post-tag,
+div.widget a[class*="tag-link-"],
+a.prev.page-numbers,
+a.next.page-numbers{
+    color: #ffffff;
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+}
+
+div#comments  p.form-submit input[type="submit"]:hover,
+div.widget_newsletter form button[type="submit"]:hover,
+article.hentry input[type="button"]:hover,
+article.hentry input[type="submit"]:hover,
+article.hentry button:hover,
+div.widget_post_meta ul li span.post-tag:hover,
+div.widget a[class*="tag-link-"]:hover,
+a.prev.page-numbers:hover,
+a.next.page-numbers:hover{
+    opacity: 1;
+    filter:alpha(opacity=100);
+}

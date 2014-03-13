@@ -1,0 +1,47 @@
+/* EXTERNAL IMPORTS GOOGLE FONTS */
+
+/* LOCAL IMPORTS */
+@import url(media/css/my/reset.css);
+@import url(media/css/my/block.css);
+
+@import url(media/css/settings.css);
+@import url(media/css/button.css);
+@import url(media/css/icons.css);
+@import url(media/css/widget.css);
+
+@import url(media/css/blog.css);
+
+@import url(media/css/comments.css);
+@import url(media/css/forms.css);
+
+
+@import url(media/css/custom.css);
+@import url(media/css/main.css);
+@import url(media/css/under-construction.css);
+
+
+/* WORDPRESS */
+.alignleft{
+    float:left;
+    margin:0px 25px 14px 0px;
+}
+.alignright{
+    float:right;
+    margin:0px 0px 14px 25px;
+}
+.aligncenter{
+    clear:both;
+    display: block;
+    margin-left:auto !important;
+    margin-right:auto !important;
+	text-align: center;
+	margin-bottom:15px;
+}
+
+/* MY THEMES CLASSES */
+.no-margin-top{
+    margin-top: 0px !important;
+}
+.no-margin-bottom{
+    margin-top: 0px !important;
+}

@@ -1,0 +1,565 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="821502DA-A20B-4DDA-BA71-39A06442518B/f:Licenta.svc" caret="25" fromTop="0" />
+      <File id="821502DA-A20B-4DDA-BA71-39A06442518B/f:Web.config" caret="185" fromTop="6" />
+      <File id="821502DA-A20B-4DDA-BA71-39A06442518B/f:SettingsGenerate.cs" caret="42" fromTop="2" />
+      <File id="ABFEBD8A-AA7E-41C2-819E-655588A1B98B/d:Logging/f:Logging.cs" caret="0" fromTop="0" />
+      <File id="ABFEBD8A-AA7E-41C2-819E-655588A1B98B/d:Common/f:Common.cs" caret="238" fromTop="7" />
+      <File id="821502DA-A20B-4DDA-BA71-39A06442518B/f:SampleItem.cs" caret="0" fromTop="0" />
+      <File id="ABFEBD8A-AA7E-41C2-819E-655588A1B98B/f:Program.cs" caret="1567" fromTop="33" />
+      <File id="821502DA-A20B-4DDA-BA71-39A06442518B/f:Licenta.cs" caret="612" fromTop="11" />
+      <File id="ABFEBD8A-AA7E-41C2-819E-655588A1B98B/d:TreeRewrite/f:Rewrite.cs" caret="445" fromTop="16" />
+      <File id="ABFEBD8A-AA7E-41C2-819E-655588A1B98B/d:Text/f:StringUtils.cs" caret="3984" fromTop="12" />
+      <File id="ABFEBD8A-AA7E-41C2-819E-655588A1B98B/d:Analize/f:Analize.cs" caret="7970" fromTop="20" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="821502DA-A20B-4DDA-BA71-39A06442518B/f:Licenta.cs" caret="3661" fromTop="22" />
+      <File id="821502DA-A20B-4DDA-BA71-39A06442518B/f:Licenta.cs" caret="652" fromTop="0" />
+      <File id="ABFEBD8A-AA7E-41C2-819E-655588A1B98B/d:Analize/f:Analize.cs" caret="2636" fromTop="0" />
+      <File id="ABFEBD8A-AA7E-41C2-819E-655588A1B98B/d:Analize/f:Analize.cs" caret="8157" fromTop="39" />
+      <File id="821502DA-A20B-4DDA-BA71-39A06442518B/f:Licenta.cs" caret="5709" fromTop="18" />
+      <File id="821502DA-A20B-4DDA-BA71-39A06442518B/f:Licenta.cs" caret="6739" fromTop="43" />
+      <File id="821502DA-A20B-4DDA-BA71-39A06442518B/f:Licenta.cs" caret="5343" fromTop="12" />
+      <File id="821502DA-A20B-4DDA-BA71-39A06442518B/f:Licenta.cs" caret="6358" fromTop="34" />
+      <File id="821502DA-A20B-4DDA-BA71-39A06442518B/f:Licenta.cs" caret="5932" fromTop="30" />
+      <File id="821502DA-A20B-4DDA-BA71-39A06442518B/f:Licenta.cs" caret="5181" fromTop="20" />
+      <File id="821502DA-A20B-4DDA-BA71-39A06442518B/f:Licenta.cs" caret="7357" fromTop="41" />
+      <File id="821502DA-A20B-4DDA-BA71-39A06442518B/f:Licenta.cs" caret="7058" fromTop="17" />
+      <File id="821502DA-A20B-4DDA-BA71-39A06442518B/f:Licenta.cs" caret="6371" fromTop="1" />
+      <File id="ABFEBD8A-AA7E-41C2-819E-655588A1B98B/d:Analize/f:Analize.cs" caret="9339" fromTop="22" />
+      <File id="ABFEBD8A-AA7E-41C2-819E-655588A1B98B/f:Program.cs" caret="1364" fromTop="22" />
+      <File id="ABFEBD8A-AA7E-41C2-819E-655588A1B98B/d:Analize/f:Analize.cs" caret="6858" fromTop="9" />
+      <File id="ABFEBD8A-AA7E-41C2-819E-655588A1B98B/d:Analize/f:Analize.cs" caret="9727" fromTop="37" />
+      <File id="821502DA-A20B-4DDA-BA71-39A06442518B/f:Licenta.cs" caret="965" fromTop="18" />
+      <File id="821502DA-A20B-4DDA-BA71-39A06442518B/f:Licenta.cs" caret="4951" fromTop="27" />
+      <File id="ABFEBD8A-AA7E-41C2-819E-655588A1B98B/d:Analize/f:Analize.cs" caret="8435" fromTop="25" />
+      <File id="821502DA-A20B-4DDA-BA71-39A06442518B/f:Licenta.cs" caret="7240" fromTop="20" />
+      <File id="821502DA-A20B-4DDA-BA71-39A06442518B/f:Licenta.cs" caret="4663" fromTop="25" />
+      <File id="ABFEBD8A-AA7E-41C2-819E-655588A1B98B/d:Analize/f:Analize.cs" caret="8433" fromTop="25" />
+      <File id="ABFEBD8A-AA7E-41C2-819E-655588A1B98B/f:Program.cs" caret="1544" fromTop="29" />
+      <File id="ABFEBD8A-AA7E-41C2-819E-655588A1B98B/f:Program.cs" caret="1567" fromTop="33" />
+      <File id="ABFEBD8A-AA7E-41C2-819E-655588A1B98B/d:TreeRewrite/f:Rewrite.cs" caret="691" fromTop="20" />
+      <File id="ABFEBD8A-AA7E-41C2-819E-655588A1B98B/d:TreeRewrite/f:Rewrite.cs" caret="599" fromTop="16" />
+      <File id="ABFEBD8A-AA7E-41C2-819E-655588A1B98B/d:TreeRewrite/f:Rewrite.cs" caret="523" fromTop="21" />
+      <File id="ABFEBD8A-AA7E-41C2-819E-655588A1B98B/d:TreeRewrite/f:Rewrite.cs" caret="599" fromTop="26" />
+      <File id="ABFEBD8A-AA7E-41C2-819E-655588A1B98B/d:TreeRewrite/f:Rewrite.cs" caret="445" fromTop="16" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="string" priority="43" />
+      <Item value="AdvancedNodeRewrite`0" priority="0" />
+      <Item value="Rewrite`0" priority="7" />
+      <Item value="return" priority="46" />
+      <Item value="true" priority="16" />
+      <Item value="private" priority="7" />
+      <Item value="List" priority="20" />
+      <Item value="static" priority="13" />
+      <Item value="new" priority="40" />
+      <Item value="List&lt;Rewrite&gt;" priority="0" />
+      <Item value="Rewrite" priority="0" />
+      <Item value="Instances" priority="0" />
+      <Item value="public" priority="27" />
+      <Item value="int" priority="22" />
+      <Item value="instanceIndex" priority="0" />
+      <Item value="#endregion" priority="0" />
+      <Item value="Console`0" priority="19" />
+      <Item value="Instance" priority="0" />
+      <Item value="greedyStringTilting" priority="2" />
+      <Item value="Node`0" priority="9" />
+      <Item value="_programNodes" priority="0" />
+      <Item value="program1" priority="0" />
+      <Item value="program2" priority="0" />
+      <Item value="class" priority="1" />
+      <Item value="List&lt;Section&gt;" priority="0" />
+      <Item value="Node" priority="0" />
+      <Item value="Boolean`0" priority="0" />
+      <Item value="Token`0" priority="13" />
+      <Item value="this" priority="7" />
+      <Item value="node" priority="10" />
+      <Item value="false" priority="11" />
+      <Item value="List&lt;Token&gt;" priority="3" />
+      <Item value="foreach" priority="20" />
+      <Item value="tokesA" priority="3" />
+      <Item value="Token" priority="0" />
+      <Item value="do" priority="1" />
+      <Item value="while" priority="2" />
+      <Item value="maxMatch" priority="1" />
+      <Item value="MinimumMatchLength" priority="0" />
+      <Item value="if" priority="58" />
+      <Item value="tokenA" priority="3" />
+      <Item value="continue" priority="0" />
+      <Item value="tokesB" priority="3" />
+      <Item value="for" priority="7" />
+      <Item value="a" priority="2" />
+      <Item value="b" priority="0" />
+      <Item value="Section`0" priority="1" />
+      <Item value="_firstDocumentTokens" priority="3" />
+      <Item value="_secondDocumentTokens" priority="3" />
+      <Item value="tokenForFirstDocumnet" priority="0" />
+      <Item value="tokenForSecondDocumnet" priority="0" />
+      <Item value="Section" priority="0" />
+      <Item value="curentMatching" priority="7" />
+      <Item value="indexA" priority="8" />
+      <Item value="indexB" priority="11" />
+      <Item value="commonMatchLength" priority="1" />
+      <Item value="minimumMatchLength" priority="0" />
+      <Item value="break" priority="2" />
+      <Item value="Length" priority="10" />
+      <Item value="tokensA" priority="6" />
+      <Item value="index" priority="15" />
+      <Item value="_sections" priority="7" />
+      <Item value="GreedyStringTiling" priority="0" />
+      <Item value="equals" priority="5" />
+      <Item value="obj" priority="0" />
+      <Item value="text" priority="1" />
+      <Item value="override" priority="0" />
+      <Item value="bool" priority="11" />
+      <Item value="nodeName" priority="0" />
+      <Item value="nodeType" priority="1" />
+      <Item value="n" priority="4" />
+      <Item value="StringUtils`0" priority="5" />
+      <Item value="char" priority="0" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="Lcs`0" priority="0" />
+      <Item value="s1" priority="12" />
+      <Item value="commonSubstring" priority="1" />
+      <Item value="token" priority="1" />
+      <Item value="enum" priority="2" />
+      <Item value="readonly" priority="8" />
+      <Item value="VariableNameMatchin`0" priority="0" />
+      <Item value="VariableNameMatching" priority="0" />
+      <Item value="CharacterCount" priority="1" />
+      <Item value="s2" priority="4" />
+      <Item value="similarity" priority="2" />
+      <Item value="Array`0" priority="2" />
+      <Item value="s1Words" priority="1" />
+      <Item value="delegate" priority="0" />
+      <Item value="s" priority="1" />
+      <Item value="comonWords" priority="2" />
+      <Item value="s2Words" priority="1" />
+      <Item value="Color`0" priority="1" />
+      <Item value="color" priority="0" />
+      <Item value="Color" priority="0" />
+      <Item value="ConsoleColor`0" priority="2" />
+      <Item value="values" priority="0" />
+      <Item value="Analize`0" priority="3" />
+      <Item value="fileText1" priority="0" />
+      <Item value="Analize" priority="6" />
+      <Item value="void" priority="4" />
+      <Item value="analize" priority="10" />
+      <Item value="null" priority="10" />
+      <Item value="List&lt;List&lt;List&lt;int&gt;&gt;&gt;" priority="0" />
+      <Item value="List&lt;List&lt;int&gt;&gt;" priority="1" />
+      <Item value="List&lt;int&gt;" priority="2" />
+      <Item value="firstDocumentToken" priority="2" />
+      <Item value="matching" priority="2" />
+      <Item value="firstDocLines" priority="0" />
+      <Item value="secondDocLines" priority="0" />
+      <Item value="res" priority="6" />
+      <Item value="HashSet" priority="0" />
+      <Item value="Dictionary" priority="4" />
+      <Item value="List&lt;Dictionary&lt;int,int&gt;&gt;" priority="0" />
+      <Item value="Dictionary&lt;int,int&gt;" priority="0" />
+      <Item value="section" priority="0" />
+      <Item value="lines" priority="5" />
+      <Item value="else" priority="6" />
+      <Item value="NewsStyleUriParser`0" priority="0" />
+      <Item value="programText1" priority="1" />
+      <Item value="p1LineNr" priority="2" />
+      <Item value="p2LineNr" priority="0" />
+      <Item value="p1MatchingLines" priority="2" />
+      <Item value="FormatException`0" priority="0" />
+      <Item value="DllNotFoundException`0" priority="0" />
+      <Item value="found" priority="1" />
+      <Item value="Black" priority="0" />
+      <Item value="MessageBox`0" priority="0" />
+      <Item value="propertyNames" priority="3" />
+      <Item value="p" priority="1" />
+      <Item value="String`0" priority="13" />
+      <Item value="nodeInfo" priority="2" />
+      <Item value="val" priority="1" />
+      <Item value="Names" priority="3" />
+      <Item value="treeTag" priority="1" />
+      <Item value="VariableDeclarationStatement" priority="0" />
+      <Item value="mParam" priority="0" />
+      <Item value="object" priority="1" />
+      <Item value="tagName" priority="33" />
+      <Item value="CompareMethods`0" priority="6" />
+      <Item value="func" priority="0" />
+      <Item value="funcName" priority="1" />
+      <Item value="CompareMethodAttribute`0" priority="3" />
+      <Item value="CompareMethods" priority="0" />
+      <Item value="aa" priority="2" />
+      <Item value="instance" priority="0" />
+      <Item value="Delegate`0" priority="0" />
+      <Item value="method" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="Reflection" priority="0" />
+      <Item value="BindingFlags`0" priority="0" />
+      <Item value="IFormatProvider`0" priority="1" />
+      <Item value="methodName" priority="3" />
+      <Item value="MemberInfo`0" priority="0" />
+      <Item value="constructor" priority="0" />
+      <Item value="methodInfo" priority="0" />
+      <Item value="Enum`0" priority="2" />
+      <Item value="TargetException`0" priority="0" />
+      <Item value="Object`0" priority="2" />
+      <Item value="GetAttributeValue`0" priority="0" />
+      <Item value="value" priority="0" />
+      <Item value="_func" priority="0" />
+      <Item value="S1" priority="0" />
+      <Item value="fullName" priority="1" />
+      <Item value="tag" priority="2" />
+      <Item value="line" priority="3" />
+      <Item value="typeof" priority="0" />
+      <Item value="compareMethod" priority="2" />
+      <Item value="CompareMethod`0" priority="1" />
+      <Item value="CompareMethod" priority="5" />
+      <Item value="id" priority="8" />
+      <Item value="arrayComparator`0" priority="0" />
+      <Item value="FieldDeclaration`0" priority="1" />
+      <Item value="TreeTagName`0" priority="0" />
+      <Item value="FullName" priority="0" />
+      <Item value="Tag" priority="0" />
+      <Item value="TypeDeclaration`0" priority="0" />
+      <Item value="ParseRecursive`0" priority="0" />
+      <Item value="fixed" priority="0" />
+      <Item value="MethodDeclaration`0" priority="1" />
+      <Item value="Parameter" priority="0" />
+      <Item value="LabelStatement`0" priority="0" />
+      <Item value="Stack" priority="1" />
+      <Item value="TypeAccessException`0" priority="0" />
+      <Item value="_labelStack" priority="3" />
+      <Item value="_identifiersUsages" priority="2" />
+      <Item value="stacksList" priority="0" />
+      <Item value="Dictionary&lt;string,List&lt;string[]&gt;&gt;" priority="0" />
+      <Item value="stackList" priority="2" />
+      <Item value="stack" priority="3" />
+      <Item value="CopyTo`0" priority="0" />
+      <Item value="tokensB" priority="4" />
+      <Item value="_p1ParseTree" priority="0" />
+      <Item value="varUsage1" priority="1" />
+      <Item value="varUsage2" priority="2" />
+      <Item value="in" priority="0" />
+      <Item value="stack1" priority="0" />
+      <Item value="stack2" priority="0" />
+      <Item value="equal" priority="3" />
+      <Item value="Common`0" priority="15" />
+      <Item value="Dictionary&lt;Token,Token&gt;" priority="0" />
+      <Item value="contextVariableMatching" priority="9" />
+      <Item value="tokenB" priority="3" />
+      <Item value="tokensANew" priority="1" />
+      <Item value="switch" priority="0" />
+      <Item value="internal" priority="0" />
+      <Item value="Default" priority="1" />
+      <Item value="case" priority="0" />
+      <Item value="AddMatchingBluePrintAtBeginning" priority="0" />
+      <Item value="_greedyStringTilting" priority="0" />
+      <Item value="before" priority="1" />
+      <Item value="nodesA" priority="0" />
+      <Item value="nodesB" priority="0" />
+      <Item value="after" priority="0" />
+      <Item value="Common" priority="6" />
+      <Item value="using" priority="0" />
+      <Item value="Dictionary&lt;int,string&gt;" priority="0" />
+      <Item value="finalProgram" priority="1" />
+      <Item value="lineNr" priority="0" />
+      <Item value="lineText" priority="4" />
+      <Item value="List&lt;string&gt;" priority="0" />
+      <Item value="VariableNameMatching`0" priority="2" />
+      <Item value="Contains`1" priority="0" />
+      <Item value="subWord" priority="1" />
+      <Item value="_varPrg1" priority="3" />
+      <Item value="indexVar2" priority="2" />
+      <Item value="indexVar1" priority="1" />
+      <Item value="_varPrg2" priority="0" />
+      <Item value="renameVariable" priority="1" />
+      <Item value="_finalVarName" priority="1" />
+      <Item value="renameVariables" priority="0" />
+      <Item value="_extraLines" priority="6" />
+      <Item value="varName" priority="1" />
+      <Item value="newVarName" priority="0" />
+      <Item value="index1" priority="0" />
+      <Item value="index2" priority="0" />
+      <Item value="add" priority="0" />
+      <Item value="Parse`0" priority="0" />
+      <Item value="ParseRecursiveWithName2`0" priority="0" />
+      <Item value="testNr" priority="1" />
+      <Item value="Math`0" priority="0" />
+      <Item value="Values" priority="0" />
+      <Item value="_finalCodeText" priority="3" />
+      <Item value="path2" priority="0" />
+      <Item value="retJSON" priority="0" />
+      <Item value="settingsGenerate" priority="6" />
+      <Item value="compareMethods" priority="2" />
+      <Item value="List&lt;CompareMethod&gt;" priority="0" />
+      <Item value="File`0" priority="0" />
+      <Item value="_file1" priority="1" />
+      <Item value="_file2" priority="0" />
+      <Item value="try" priority="0" />
+      <Item value="catch" priority="0" />
+      <Item value="Exception`0" priority="0" />
+      <Item value="e" priority="0" />
+      <Item value="name" priority="1" />
+      <Item value="fileName" priority="4" />
+      <Item value="_analize" priority="5" />
+      <Item value="Stream`0" priority="1" />
+      <Item value="Stream" priority="0" />
+      <Item value="StreamAndName" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="stream" priority="0" />
+      <Item value="ResolveEventArgs`0" priority="0" />
+      <Item value="generatedProgramName" priority="0" />
+      <Item value="programId" priority="0" />
+      <Item value="old" priority="0" />
+      <Item value="newVar" priority="0" />
+      <Item value="GetStream`0" priority="1" />
+      <Item value="templateName" priority="0" />
+      <Item value="_programText1" priority="0" />
+      <Item value="_programText2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="19" />
+      <Item value="Count" priority="5" />
+      <Item value="Contains`0" priority="4" />
+      <Item value="RemoveAt`0" priority="1" />
+      <Item value="RemoveRange`0" priority="0" />
+      <Item value="Indexer" priority="1" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="ToArray`0" priority="1" />
+      <Item value="IndexOf`0" priority="4" />
+      <Item value="Clear`0" priority="2" />
+      <Item value="Remove`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Licenta_Compilator.TreeRewrite.Rewrite">
+      <Item value="setInstanceIndex`0" priority="0" />
+      <Item value="Instance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="13" />
+      <Item value="Write`0" priority="2" />
+      <Item value="ForegroundColor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Licenta_Compilator.TreeRewrite.Rewrite">
+      <Item value="GetNodes`0" priority="2" />
+      <Item value="IdentifiersUsages" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Licenta_Compilator.Pattern.Token">
+      <Item value="node" priority="1" />
+      <Item value="isMarked" priority="0" />
+      <Item value="IsMarked" priority="0" />
+      <Item value="Equals`0" priority="2" />
+      <Item value="Node" priority="7" />
+      <Item value="ToString`0" priority="1" />
+      <Item value="Match`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Licenta_Compilator.Pattern.Section">
+      <Item value="StartIndexA" priority="2" />
+      <Item value="Length" priority="2" />
+      <Item value="addNextTokenMatch`0" priority="0" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="FirstDocumentTokens" priority="2" />
+      <Item value="SecondDocumentTokens" priority="0" />
+      <Item value="AddNextTokenMatch`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Licenta_Compilator.TreeRewrite.Node">
+      <Item value="Equals`0" priority="0" />
+      <Item value="Tag" priority="2" />
+      <Item value="Name" priority="0" />
+      <Item value="Match`0" priority="0" />
+      <Item value="Line" priority="2" />
+      <Item value="Names" priority="6" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="GetHashCode`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="PadRight`0" priority="2" />
+      <Item value="Equals`0" priority="7" />
+      <Item value="Length" priority="2" />
+      <Item value="Contains`0" priority="0" />
+      <Item value="ToLower`0" priority="2" />
+      <Item value="Replace`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ICSharpCode.NRefactory.Demo.Common.Common">
+      <Item value="VariableNameMatching" priority="0" />
+      <Item value="padding" priority="0" />
+      <Item value="VariableStackSimilarity" priority="1" />
+      <Item value="CompareMethod" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ICSharpCode.NRefactory.Demo.Common.VariableNameMatching">
+      <Item value="WordCount" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Array">
+      <Item value="Exists`1" priority="0" />
+      <Item value="FindIndex`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Licenta_Compilator.Analize.Analize">
+      <Item value="start`0" priority="0" />
+      <Item value="PrintFinalProgram`0" priority="0" />
+      <Item value="RenameVar`0" priority="1" />
+      <Item value="ChangeDefaultProgram`0" priority="0" />
+      <Item value="ExtraLines`0" priority="0" />
+      <Item value="MakeFinal`0" priority="0" />
+      <Item value="RenameVarAfterFinal`0" priority="0" />
+      <Item value="SaveTemplate`0" priority="0" />
+      <Item value="Reset`0" priority="0" />
+      <Item value="FinalProgramText`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="Add`0" priority="4" />
+      <Item value="TryGetValue`0" priority="1" />
+      <Item value="Values" priority="0" />
+      <Item value="Keys" priority="1" />
+      <Item value="ContainsKey`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Licenta_Compilator.Text.StringUtils">
+      <Item value="GetLineNumbers`0" priority="0" />
+      <Item value="GetLine`0" priority="1" />
+      <Item value="Match`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ConsoleColor">
+      <Item value="White" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.PropertyInfo">
+      <Item value="Name" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Licenta_Compilator.TreeRewrite.TreeTagName">
+      <Item value="FieldDeclaration" priority="0" />
+      <Item value="VariableDeclarationStatement" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Licenta_Compilator.TreeRewrite.TreeTagName">
+      <Item value="ToString`0" priority="5" />
+      <Item value="Equals`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Licenta_Compilator.TreeRewrite.CompareMethods">
+      <Item value="GetType`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="GetMethod`0" priority="0" />
+      <Item value="GetConstructor`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Licenta_Compilator.TreeRewrite.CompareMethods">
+      <Item value="instance" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.MethodInfo">
+      <Item value="Invoke`0" priority="1" />
+      <Item value="MakeGenericMethod`0" priority="0" />
+      <Item value="GetParameters`0" priority="0" />
+      <Item value="ReflectedType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Delegate">
+      <Item value="CreateDelegate`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.BindingFlags">
+      <Item value="Static" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.ParameterInfo">
+      <Item value="ParameterType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Licenta_Compilator.TreeRewrite.StringEnum">
+      <Item value="GetCompareMethod`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Func`3">
+      <Item value="Invoke`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Licenta_Compilator.TreeRewrite.CompareMethodAttribute">
+      <Item value="Invoke`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Stack">
+      <Item value="Push`0" priority="0" />
+      <Item value="ToArray`0" priority="3" />
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ICSharpCode.NRefactory.CSharp.AstNode">
+      <Item value="GetText`0" priority="4" />
+      <Item value="StartLocation" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ICSharpCode.NRefactory.TextLocation">
+      <Item value="Line" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ICSharpCode.NRefactory.Demo.Common.CompareMethod">
+      <Item value="Default" priority="0" />
+      <Item value="AddMatchingBluePrintAtBeginning" priority="0" />
+      <Item value="AddMatchingBluePrintAtMiddle" priority="0" />
+      <Item value="AddMatchingBluePrintAtFinal" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Licenta_Compilator.Pattern.GreedyStringTiling">
+      <Item value="AddMatchingBluePrintAtBeginning`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Licenta_Compilator.Common.CompareMethod">
+      <Item value="AddMatchingBluePrintAtBeginning" priority="2" />
+      <Item value="AddMatchingBluePrintAtFinal" priority="0" />
+      <Item value="After" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Licenta_Compilator.Common.Common">
+      <Item value="VariableStackSimilarity" priority="2" />
+      <Item value="UseDefaultProgram" priority="2" />
+      <Item value="VariableNameMatching" priority="0" />
+      <Item value="CompareMethod" priority="1" />
+      <Item value="VariableNameSimilarity" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Licenta_Compilator.TreeRewrite.NodesRewrite.FieldDeclaration">
+      <Item value="RealName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Licenta_Compilator.Common.VariableNameMatching">
+      <Item value="WordCount" priority="1" />
+      <Item value="CharacterCount" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Licenta_Compilator.TreeRewrite.NodesRewrite.BasicNodeRewrite">
+      <Item value="ParseRecursive`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Licenta_Compilator.TreeRewrite.NodesRewrite.AdvancedNodeRewrite">
+      <Item value="ParseRecursive`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Max`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ServiceModel.Web.WebMessageFormat">
+      <Item value="Json" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ServiceModel.InstanceContextMode">
+      <Item value="Single" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WebService.SettingsGenerate">
+      <Item value="WordCount" priority="0" />
+      <Item value="NameSimilarity" priority="0" />
+      <Item value="StackSimilarity" priority="0" />
+      <Item value="Before" priority="0" />
+      <Item value="File1" priority="1" />
+      <Item value="File2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt32`0" priority="2" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

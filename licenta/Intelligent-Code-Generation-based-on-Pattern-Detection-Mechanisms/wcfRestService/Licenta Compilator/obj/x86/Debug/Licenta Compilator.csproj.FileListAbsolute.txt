@@ -1,0 +1,16 @@
+c:\users\mciorobe\documents\visual studio 2010\Projects\Licenta Compilator\Licenta Compilator\bin\Debug\Licenta Compilator.exe
+c:\users\mciorobe\documents\visual studio 2010\Projects\Licenta Compilator\Licenta Compilator\bin\Debug\Licenta Compilator.pdb
+c:\users\mciorobe\documents\visual studio 2010\Projects\Licenta Compilator\Licenta Compilator\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\mciorobe\documents\visual studio 2010\Projects\Licenta Compilator\Licenta Compilator\obj\x86\Debug\Licenta Compilator.exe
+c:\users\mciorobe\documents\visual studio 2010\Projects\Licenta Compilator\Licenta Compilator\obj\x86\Debug\Licenta Compilator.pdb
+c:\users\mciorobe\documents\visual studio 2010\Projects\Licenta Compilator\Licenta Compilator\bin\Debug\ICSharpCode.NRefactory.CSharp.dll
+c:\users\mciorobe\documents\visual studio 2010\Projects\Licenta Compilator\Licenta Compilator\bin\Debug\ICSharpCode.NRefactory.dll
+c:\users\mciorobe\documents\visual studio 2010\Projects\Licenta Compilator\Licenta Compilator\bin\Debug\Mono.Cecil.dll
+C:\Mihai\Licenta\Licenta Compilator\Licenta Compilator\bin\Debug\Licenta Compilator.pdb
+C:\Mihai\Licenta\Licenta Compilator\Licenta Compilator\bin\Debug\ICSharpCode.NRefactory.CSharp.dll
+C:\Mihai\Licenta\Licenta Compilator\Licenta Compilator\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Mihai\Licenta\Licenta Compilator\Licenta Compilator\bin\Debug\Mono.Cecil.dll
+C:\Mihai\Licenta\Licenta Compilator\Licenta Compilator\obj\x86\Debug\Licenta Compilator.pdb
+C:\Mihai\Licenta\Licenta Compilator\Licenta Compilator\bin\Debug\Licenta Compilator.dll
+C:\Mihai\Licenta\Licenta Compilator\Licenta Compilator\obj\x86\Debug\Licenta Compilator.dll
+C:\Mihai\Licenta\Licenta Compilator\Licenta Compilator\obj\x86\Debug\ResolveAssemblyReference.cache

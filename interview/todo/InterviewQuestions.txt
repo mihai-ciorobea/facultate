@@ -1,0 +1,242 @@
+Alte link-uri foarte utile:
+
+http://infoarena.ro/missing-numbers
+http://jeffasaurus.com/insideinterview.com/
+http://www.careercup.com/
+http://halcyon.usc.edu/~kiran/msqs.html
+http://www.facebook.com/careers/puzzles.php
+
+Resurse foarte utile pentru C++:
+* http://www.cplusplus.com/doc/tutorial/ (begginers)
+* cartea "Effective C++" http://www.amazon.com/Effective-Specific-Addison-Wesley-Professional-Computing/dp/0201924889 (prima jumatate este de ajuns) (intermediate)
+* http://www.parashift.com/c++-faq/ (advanced)
+
+Pentru algoritmica: http://www.amazon.com/Introduction-Algorithms-Third-Thomas-Cormen/dp/0262033844/ref=sr_1_1?s=books&ie=UTF8&qid=1289581489&sr=1-1
+
+Se cere foarte mult programare dinamica, mai ales la Google.
+
+Fiecare sectiune din urmtoarele reprezinta cate un interviu:
+
+--------------------------------------------------------------------------------
+
+  - multe intrebari despre OOP, concepte de baza : polimorfism, overloading,
+    overriding etc.
+  - diferente C++ si Java
+  - intrebari despre Java : ex. diferenta intre o interfata si o clasa abstracta
+  - ca problema de implementat a fost ceva simplu: Se dau doi vectori sortati,
+    sa se determine al k-lea element din vectorul obtinut prin reuniunea celor
+    doi vectori si sortarea acestuia.  Eu am rezolvat in complexitate O(N+M),
+    dar am inteles ca se poate si o cautare binara ceva.
+  - problema de logica :  Se da o foaie A4 in interiorul careia este decupat
+    undeva un cerc de orice raza. Cercul nu depaseste suprafata foii. Intrebarea
+    este cum poti taia aceasta foaie utilizand o foarfeca, si in final sa obtii
+    doua bucatii de arie egala. Poti folosi orice alt instrument doresti.
+
+--------------------------------------------------------------------------------
+
+- o problema de dinamica usoara + implementare; nu mi mai aduc aminte enuntul
+- o problema asupra careia am discutat ca sa vada cum gandesc.  Se dau N drepte
+  in plan, oricare doua au un punct comun. Cate triunghiulete apar in planul
+  respectiv ? 
+
+--------------------------------------------------------------------------------
+
+- intrebari C/C++. Exemplu : ce face keyword-ul mutable in C++ ?
+- radix sort - explicatii
+- hash-uri - am discutat mult pe acest capitol
+- m-a pus sa implementez un backtracking usor
+- am discutat despre proiectul la care lucrasem cu o vara inainte 
+
+--------------------------------------------------------------------------------
+
+* fa designul unei clase Card si al unei clase CardDeck (se refera la
+carti de joc) si pune-le ce metode crezi tu ca sunt relevante. Printre
+altele i-am zis de metoda shuffle care amesteca pachetul de carti si
+m-a pus sa-i zic cum implementez shuffle astfel incat sa fie perfect
+random si sa-i zic complexitatea.
+* ai un director cu f multe fisiere de dim. foarte mari. Cum faci sa
+gasesti duplicatele ? I-am zis ca fac hash pe primii x octeti din
+fisier si el m-a intrebat cum calculez x astfel incat sa fie optim: sa
+nu dureze nici prea mult hash-ul si nici sa nu apara multe coliziuni.
+Mi-a mai pus si alte intrebari de probabilitati de coliziune, etc.
+
+--------------------------------------------------------------------------------
+
+Implementeaza 2 functii:
+
+string serialize( List< string > list ); // serializeaza o lista de stringuri
+                                         // pentru a fi trimisa pe retea
+List< string > deserialize( string );  // o deserializeaza
+
+Solutia e simpla, se pune mai intai numarul de elemente din lista, dupa care
+pentru fiecare string se pune dimensiunea sa, urmata de string-ul propriu-zis.
+
+--------------------------------------------------------------------------------
+
+M-a intrebat daca stiu ce e Google Web Accelerator si i-am zis ce e,
+ce face, stiam destule despre el, dupa care m-a intrebat cum cred ca
+functioneaza si i-am zis:
+* citisem cu o saptamana inainte despre cum functioneaza opera mini:
+  http://www.engadget.com/2010/02/17/opera-mini-on-iphone-is-fast-but-why/
+  si i-am explicat faza asta
+* link prefetching
+* caching
+
+M-a mai pus sa vb putin despre caching
+
+Si in final m-a pus sa-i spun cum implementez ridicarea la puterea 100
+a unei cifre.
+
+--------------------------------------------------------------------------------
+
+- Intrebarea 1: ce fel de cautari cunosc. De aici s-a ajuns la BST si hash table
+(diverse intrebari despre ele). Daca hashtable-ul se comporta mai rapid, atunci
+de ce nu il folosim mereu (memorie).
+- Intrebarea 2: Daca am multe fisiere html pe disk, cum as face sa
+gasesc numerele
+din telefon din ele. I-am zis ca as folosi grep si o expresie regulata adecvata.
+- Intrebarea 3: Ce se intampla cand scrii google.com in bara de adrese
+intr-un browser
+si dai enter. A vrut toti pasi: dns, cerere http, raspuns, formatarea
+paginii etc. Am
+discutat si despre cum se realizeaza o conexiune tcp(3-way handshake), despre
+faptul ca browserele tin un cache cu domainnames-ip.
+- Intrebarea 4: Cum afli daca un numar e putere a lui 2?
+- Apoi am discutat despre ce produse google folosesc si la ce feature
+mi-as dori.
+Am mentionat cautarea unor bucati de cuvinte in mail (nu poti cauta
+decat cuvinte
+intregi) si apoi am discutat pe tema asta: cum cred eu ca e
+implementata cautarea etc.
+Si pana la urma am ajuns la concluzia ca e un compromis sa nu se implementeze
+asta pentru rapiditate.
+
+--------------------------------------------------------------------------------
+
+- Un tip mai putin amabil si grabit, avea o sedinta, mi-a zis sa termin eu de
+  scris codul si se va uita apoi pe el.
+- Problema: avand un vector de vectori cu numere, vrei sa alegi o
+n-tuplu astfel incat
+sa minimizezi diferenta maxima. Ex:
+5 14 19 35 52
+11 17 29 40
+1 25 63 72
+Solutia e (19, 29, 25) => 6.
+- Am discutat mai intai despre algoritm. (era o problema clasica data
+de ei, o mai
+vazusesem pe la alte interviuri, dar totusi eu m-am balbait la ea).
+- Apoi a urmat implementarea, nu a mai avut timp sa astepte dupa mine, asa ca
+m-a lasat sa implemetez "int MinWindow(const vector<vector<int> >
+&words)" si a zis
+ca se uita apoi.
+- Vectorii erau de fapt pozitiile pe care apar cuvinte intr-un text si
+tu incerci sa le
+gasesti pe toate, asa ca m-a intrebat cum am putea face rezultatul mai relevant:
+ai grija sa fie in aceeasi propozitie si sa apara chiar in ordinea cautata. 
+
+--------------------------------------------------------------------------------
+
+arbori binari (preordine si inordine)
+scriere pe disc a acestora ca sa pastrezi structura si apoi citire
+eu am scris cate un char, pe urma m-a pus sa optimizez sa scriu un int ca sa mai
+salvez spatiu pe disc un copil urca o treapta sau doua si cate moduri ai
+(deci Fibonacci) -> solutie O(N) si apoi O(log N) ce se intampla de cand tastezi
+si pana apare un caracter pe ecran? am zis in mare ce cred eu, dar nu m-am
+priceput la system programming si la hardware; el a fost ok cu asta, nu l-a
+deranjat.
+
+--------------------------------------------------------------------------------
+
+Pai la primul interviu am avut sa implementez in Java intersectia a doua multimi.
+Apoi mi-a dat urmatoarea interfata:
+
+interface xxx { // nu mai stiu numele, irelevant
+      void increment();
+      int returnNumberIncrementsInPast10Min();
+}
+
+trebuia sa zic cum implementez interfata aia. si se ajungea la hashTables :)
+
+--------------------------------------------------------------------------------
+
+ce se intampla in spatele compilarii in C, apoi sa-i explic diversi algoritmi,
+apoi sa-i demonstrez de ce analiza amortizata a tabelelor de dispersie e O(1).
+
+--------------------------------------------------------------------------------
+
+Se dau N puncte in planul XoY si un numar K. Apoi se da un punct X1. Trebuie sa
+determini in mod optim primele K puncte din cele N, care se afla la o distanta
+( euclidiana ) cat mai mare de punctul X1. Generalizare apoi pentru
+X2, X3, .... XM ( M mult mai mare decat N ).
+
+--------------------------------------------------------------------------------
+
+a )
+Fie o functie de genul void F ( int A[], int B[] ) unde A si B sunt permutari
+ale aceleiasi multimi. ( cardinalul - 1 ). Se cere sa modifici permutarea B
+astfel incat sa arate ca A, folosind doar swapuri cu elementul 0. Exemplu
+
+A = {  2, 3, 1, 0, 4 }
+B = {  1, 2, 4, 3, 0 } -> Pentru ca elementul 2 sa ajunga pe pozitia 0
+( cum e in sirul A  ) faci swapping prima data 1 cu 0, apoi 2 cu 0.
+( Complexitate optimie -> O(N) )
+
+b) Care sunt cauzele care pot face un unit testing sa fie nedeterministic ?
+
+--------------------------------------------------------------------------------
+
+* ce face static in c++?
+* de unde stie compilatorul C++ cand apelezi o metoda a unui obiect si folosesti
+membrii obiectului, de unde sa ia membrii respectivi ? De unde stie ca sunt ai
+obiectului respectiv si nu ai altuia (Raspuns: la metode se transmite in spate
+inca un argument, this, care e un pointer catre obiectul apelant)
+* cum numeri cati biti de 1 ai intr-un int
+* cum faci in C afisarea binara a unui float ?
+* virtual destructor - tot ce stii despre el
+
+--------------------------------------------------------------------------------
+
+* large data set (100GB) on hdd; trebuie sa faci operatiile x1, x2, x3 si x4 pe
+  toate numerele. ai 2 optiuni:
+    - for ( fiecare numar ) { x1; x2; x3; x4 }
+    
+    - for ( fiecare numar ) { x1; }
+      for ( fiecare numar ) { x2; }
+      for ( fiecare numar ) { x3; }
+      for ( fiecare numar ) { x4; } 
+      
+  ce optiune alegi si de ce ?
+
+* 100MB RAM; primesti int-uri prin retea; clientul face multe lookup-uri la numere: 
+    - ce structura de date folosesti?
+    - dar daca le vrei sortate ?
+
+* 1MB RAM; 1TB int-uri pe hdd; sort this data: reduce thrashing si trb sa fie optim
+    -> R: split into many tiny parts
+
+* input: set of memory blocks which may be overlapping: (start addr, size);
+  trebuie unite toate segmentele care se suprapun intr-un singur segment si la
+  output se vor afisa mai putine segmente, cele rezultate care nu se mai suprapun
+
+* diferenta radix si qsort
+
+* ai o harta cu strazi; ai un punct; cum afli cea mai apropiata strada de punctul tau ?
+    -> R: punctul tau devine noul centru al axelor de coordonate si sortezi strazile dupa noile coordonate
+
+* ce preferi ? qsort() din C sau vector.sort( ) din c++ ? de ce ? care e mai rapid ?
+
+--------------------------------------------------------------------------------
+
+* strcmp( ) iterativ si recursiv
+* ai 2 galeti; 50 bile rosii, 50 bile albastre; cum le distribui in galeti
+astfel incat daca alegi o galeata la intamplare si alegi din galeata aia o
+bila la intamplare, probabilitatea sa fie rosie sa fie maxima
+
+--------------------------------------------------------------------------------
+
+Arbore cu cuvinte. Se da un string ce poate contine si "." Sa se precizeze cate
+aparitii ale acelui string sunt in arbore.
+
+--------------------------------------------------------------------------------
+
+Implementeaza strstr, strcmp, iterativ si recursiv.

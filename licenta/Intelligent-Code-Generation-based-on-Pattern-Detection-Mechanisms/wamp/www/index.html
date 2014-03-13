@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html xmlns:fb="http://ogp.me/ns/fb#" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Licenta</title>
+    <link rel="stylesheet" href="http://localhost/style.css" type="text/css" media="all"/>
+    <script type='text/javascript' src='http://localhost/media/js/jquery.min.js'></script>
+    <script type='text/javascript' src='http://localhost/media/js/functions.js'></script>
+    <script type='text/javascript' src='http://localhost/myJS/formSubmit.js'></script>
+
+    <!--For range-->
+    <link rel="stylesheet" class="umbrui" href="http://localhost/umbrUI-gh-pages/elements/range.css">
+
+</head>
+<body>
+<div class="under-construction">
+    <div class="pos-center">
+        <div class="shadow">
+            <div class="content-underconstruction">
+
+                <center>
+
+                    <h1 class="site-title">Code Generation</h1>
+
+                </center>
+                <!--<p class="description">premium html template</p>-->
+
+
+                <section style="position: relative; top: 20%;">
+                    <div class="type">
+                        <input type="checkbox" value="None" id="type" name="check" />
+                        <label for="type"></label>
+                    </div>
+                </section>
+                <script>
+                    $('#type').change(function() {
+                        if ($("#type").is(":checked")){
+                            //checked -- use existing
+                            $("#generate").fadeOut(300, function(){$("#instantiate").fadeIn(300);});
+
+                        }   else {
+                            //not-checked -- generate
+                            $("#instantiate").fadeOut(300, function(){$("#generate").fadeIn(300);});
+                        }
+                    });
+                </script>
+
+
+                <form id="generate" class="subscribe" onSubmit="generate(); return false;" style="position:relative; top: -10%">
+
+                    <center>
+                        <table>
+                            <tr>
+                                <td colspan="2">
+                                    <!--<input type="text" class="text" name="email" value="Place your email adress here..." onfocus="if (this.value == 'Place your email adress here...') {this.value = '';}" onblur="if (this.value == '' ) { this.value = 'Place your email adress here...';}"><span class="email"></span>-->
+                                    <input id="fakeUpload1" type="text" class="text" name="upload1_fake" value="Path to the first file.." onfocus="if (this.value == 'Path to the first file..') {this.value = '';}" onblur="if (this.value == '' ) { this.value = 'Path to the first file..';}"><span class="email"></span>
+                                    <input name="upload1" type="file" class="file" id="upload1" style="display: none;" />
+
+                                    <script>
+                                        $("#fakeUpload1").click(function(){
+                                            $("#upload1").trigger('click');
+                                        });
+                                        $("#upload1").change(function(e) {
+                                            $("#fakeUpload1").val($("#upload1").val().replace("C:\\fakepath\\",""));
+                                        });
+                                    </script>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input id="fakeUpload2" type="text" class="text" name="email" value="Path to the second file.." onfocus="if (this.value == 'Path to the second file..') {this.value = '';}" onblur="if (this.value == '' ) { this.value = 'Path to the second file..';}"><span class="email"></span>
+                                    <input name="upload2" type="file" class="file" id="upload2" style="display: none;"/>
+                                    <script>
+                                        $("#fakeUpload2").click(function(){
+                                            $("#upload2").trigger('click');
+                                        });
+                                        $("#upload2").change(function(e) {
+                                            $("#fakeUpload2").val($("#upload2").val().replace("C:\\fakepath\\",""));
+                                        });
+                                    </script>
+                                </td>
+                            </tr>
+
+                            <!--Word count-->
+                            <tr>
+                                <td>
+                                    <label class="label">
+                                        Word Count
+                                    </label>
+                                </td>
+                                <td>
+                                    <section >
+                                        <div class="wordCount">
+                                            <input type="checkbox" value="None" id="wordCount" name="check2" />
+                                            <label for="wordCount"></label>
+                                        </div>
+                                    </section>
+                                </td>
+                            </tr>
+
+                            <!--Name Similarity-->
+                            <tr>
+                                <td>
+                                    <label class="label">
+                                        Name Similarity
+                                    </label>
+                                </td>
+                                <td>
+                                    <input type="range" id="nameSimilarity" />
+                                </td>
+                            </tr>
+
+                            <!--Stack Similarity-->
+                            <tr>
+                                <td>
+                                    <label class="label">
+                                        Stack Similarity
+                                    </label>
+                                </td>
+                                <td>
+                                    <input type="range" id="stackSimilarity" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="label">
+                                        Before
+                                    </label>
+                                </td>
+                                <td>
+                                    <section >
+                                        <div class="before">
+                                            <input type="checkbox" value="None" id="before" name="check" />
+                                            <label for="before"></label>
+                                        </div>
+                                    </section>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="label">
+                                        After
+                                    </label>
+                                </td>
+                                <td>
+                                    <section >
+                                        <div class="after">
+                                            <input type="checkbox" value="None" id="after" name="check" />
+                                            <label for="after"></label>
+                                        </div>
+                                    </section>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="padding-top: 50px">
+
+                                    <input type="submit" class="submit" value="Generate">
+                                    <div class="error" style="font-weight: 600; overflow-x: hidden; display: -webkit-inline-box; padding-left: 50px; color: rgb(221, 32, 32); max-width: 200px;">
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </center>
+
+                </form>
+
+                <form id="instantiate" class="subscribe"  onSubmit="instantiate(); return false;" style="position:relative; top: -10%; display:none;">
+
+                    <center>
+                        <table>
+                            <tr>
+                                <td colspan="2">
+                                    <!--<input type="text" class="text" name="email" value="Place your email adress here..." onfocus="if (this.value == 'Place your email adress here...') {this.value = '';}" onblur="if (this.value == '' ) { this.value = 'Place your email adress here...';}"><span class="email"></span>-->
+                                    <input id="fakeUploadInstantiate" type="text" class="text" name="email" value="Path to the first file.." onfocus="if (this.value == 'Path to the first file..') {this.value = '';}" onblur="if (this.value == '' ) { this.value = 'Path to the first file..';}"><span class="email"></span>
+                                    <input type="file" class="file" id="instantiate1" style="display: none;"/>
+                                    <script>
+                                        $("#fakeUploadInstantiate").click(function(){
+                                            $("#instantiate1").trigger('click');
+                                        });
+                                        $("#instantiate1").change(function(e) {
+                                            $("#fakeUploadInstantiate").val($("#instantiate1").val().replace("C:\\fakepath\\",""));
+                                        });
+                                    </script>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="">
+
+                                    <input type="submit" class="submit" value="Select">
+
+                                </td>
+                            </tr>
+                        </table>
+                    </center>
+
+                </form>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="pos-bottom">
+        <footer>
+            <div>
+                <p><span>Copyright &copy; 2013. Ciorobea Mihai</p>
+            </div>
+        </footer>
+    </div>
+</div>
+</body>
+</html>
