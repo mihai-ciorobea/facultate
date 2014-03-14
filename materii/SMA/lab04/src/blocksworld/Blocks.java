@@ -90,11 +90,11 @@ public class Blocks {
   /**
    * List of all blocks in the world.
    */
-  Set<Block> allBlocks = new HashSet<>();
+  public Set<Block> allBlocks = new HashSet<>();
   /**
    * List of towers in the blocks world. Each tower is a queue where the first element is the top block.
    */
-  Map<Integer, Deque<Block>> towers = new TreeMap<>();
+  public Map<Integer, Deque<Block>> towers = new TreeMap<>();
 
 
   @Override
