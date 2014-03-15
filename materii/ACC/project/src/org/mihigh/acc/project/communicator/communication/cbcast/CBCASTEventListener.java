@@ -1,4 +1,4 @@
-package org.mihigh.acc.project.communicator;
+package org.mihigh.acc.project.communicator.communication.cbcast;
 
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
@@ -6,14 +6,20 @@ import javax.swing.text.BadLocationException;
 
 import org.mihigh.acc.project.commons.Action;
 
-public class EventListener implements DocumentListener {
+public class CBCASTEventListener implements DocumentListener {
 
-  private Node node;
+  private CBCASTNode CBCASTNode;
   public boolean realUpdate = true;
 
-  public EventListener(Node node) {
-    this.node = node;
+  public CBCASTEventListener(CBCASTNode CBCASTNode) {
+    this.CBCASTNode = CBCASTNode;
   }
+
+  public CBCASTEventListener() {
+
+  }
+
+
 
   @Override
   public void insertUpdate(DocumentEvent e) {
@@ -25,7 +31,7 @@ public class EventListener implements DocumentListener {
     try {
       int start = e.getOffset();
       String text = e.getDocument().getText(start, 1);
-      node.getProtocol().typedMessage(new Action(Action.EventType.INSERT, text, start));
+      CBCASTNode.getProtocol().typedMessage(new Action(Action.EventType.INSERT, text, start));
     } catch (BadLocationException e1) {
       e1.printStackTrace();
     }
@@ -39,7 +45,7 @@ public class EventListener implements DocumentListener {
       return;
     }
 
-    node.getProtocol().typedMessage(new Action(Action.EventType.DELETE, null, e.getOffset()));
+    CBCASTNode.getProtocol().typedMessage(new Action(Action.EventType.DELETE, null, e.getOffset()));
   }
 
   @Override

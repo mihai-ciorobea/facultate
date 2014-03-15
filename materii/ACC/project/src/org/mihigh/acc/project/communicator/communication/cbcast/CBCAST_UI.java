@@ -1,28 +1,28 @@
-package org.mihigh.acc.project.communicator;
+package org.mihigh.acc.project.communicator.communication.cbcast;
 
 import java.lang.reflect.InvocationTargetException;
 
 import javax.swing.*;
 import javax.swing.text.BadLocationException;
 
-public class UI {
+public class CBCAST_UI {
 
   private final JTextArea textArea;
   private final int id;
-  private final Node node;
-  private final EventListener listener;
+  private final Node CBCASTNode;
+  private final CBCASTEventListener listener;
 
-  public UI(int id, Node node) {
+  public CBCAST_UI(int id, Node CBCASTNode, CBCASTEventListener listener) {
     this.id = id;
-    this.node = node;
-    listener = new EventListener(node);
+    this.CBCASTNode = CBCASTNode;
+    this.listener = listener;
 
     JFrame frame = new JFrame("Editor" + id);
     JPanel panel = new JPanel();
     textArea = new JTextArea(10, 20);
     frame.add(panel);
     panel.add(textArea);
-    textArea.getDocument().addDocumentListener(listener);
+    textArea.getDocument().addDocumentListener(this.listener);
 
     frame.setBounds(100 + 250 * id, 100, 250, 200);
     frame.setVisible(true);

@@ -1,27 +1,27 @@
-package org.mihigh.acc.project.communicator;
+package org.mihigh.acc.project.communicator.communication.cbcast;
 
 import java.util.List;
 
-import org.mihigh.acc.project.application.Main;
-import org.mihigh.acc.project.commons.ActionExtention;
-import org.mihigh.acc.project.communicator.communication.Protocol;
 import org.mihigh.acc.project.commons.Action;
-import org.mihigh.acc.project.network.Message;
+import org.mihigh.acc.project.commons.ActionExtention;
+import org.mihigh.acc.project.communicator.communication.Message;
+import org.mihigh.acc.project.communicator.communication.Protocol;
+import org.mihigh.acc.project.network.NetworkManager;
 
-public class Node implements Runnable {
+public class CBCASTNode implements Node {
 
   private final int id;
   private List<ActionExtention> actions;
   private final Protocol protocol;
 
-  private UI ui;
+  private CBCAST_UI CBCASTUi;
 
 
-  public Node(int id, List<ActionExtention> actions) {
+  public CBCASTNode(int id, List<ActionExtention> actions, int NODES_NR) {
     this.id = id;
     this.actions = actions;
-    this.protocol = Main.getComunicationType(this);
-    this.ui = new UI(id, this);
+    this.protocol = new CBCAST(NetworkManager.instance, this, NODES_NR);
+    this.CBCASTUi = new CBCAST_UI(id, this, new CBCASTEventListener(this));
   }
 
   @Override
@@ -33,13 +33,14 @@ public class Node implements Runnable {
         e.printStackTrace();
       }
       if (action.getEventType() == Action.EventType.INSERT) {
-        ui.insertReal(action.getText(), action.getPoz());
+        CBCASTUi.insertReal(action.getText(), action.getPoz());
       } else {
-        ui.removeReal(action.getPoz());
+        CBCASTUi.removeReal(action.getPoz());
       }
     }
   }
 
+  @Override
   /**
    * Receive a message from other node
    */
@@ -52,8 +53,8 @@ public class Node implements Runnable {
     return protocol;
   }
 
-  public UI getUi() {
-    return ui;
+  public CBCAST_UI getCBCASTUi() {
+    return CBCASTUi;
   }
 
   public int getId() {

@@ -1,40 +1,41 @@
-package org.mihigh.acc.project.communicator.communication;
+package org.mihigh.acc.project.communicator.communication.cbcast;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.mihigh.acc.project.communicator.Node;
 import org.mihigh.acc.project.commons.Action;
-import org.mihigh.acc.project.network.Message;
+import org.mihigh.acc.project.communicator.communication.Message;
+import org.mihigh.acc.project.communicator.communication.Protocol;
 import org.mihigh.acc.project.network.NetworkManager;
 
 public class CBCAST implements Protocol {
 
   private NetworkManager networkManager;
-  private Node node;
+  private CBCASTNode CBCASTNode;
   private int[] VT;
 
   private List<Message> messages = new ArrayList<Message>();
 
-  public CBCAST(NetworkManager networkManager, Node node, int nodeNr) {
+  public CBCAST(NetworkManager networkManager, CBCASTNode CBCASTNode, int nodeNr) {
     this.networkManager = networkManager;
-    this.node = node;
+    this.CBCASTNode = CBCASTNode;
     this.VT = new int[nodeNr];
   }
 
   @Override
   public void receiveMessage(Message message) {
-    System.out.println(node.getId() + " ==> " + message);
+    System.out.println(CBCASTNode.getId() + " ==> " + message);
     messages.add(message);
 
     boolean apply = true;
     while (apply) {
-      ITERATOR
       apply = false;
+      //TODO: itertator
       for (int index = 0; index < messages.size(); ++index) {
-        System.out.println(node.getId() + ": " + message + " === " + messages);
+        System.out.println(CBCASTNode.getId() + ": " + message + " === " + messages);
         if (handelMessage(messages.get(index))) {
           apply = true;
+          messages.remove(message);
           break;
         }
       }
@@ -44,13 +45,12 @@ public class CBCAST implements Protocol {
   private boolean handelMessage(Message message) {
     if (checkVT(message.getVt(), message.getSourceId())) {
       if (message.getAction().getEventType() == Action.EventType.INSERT) {
-        node.getUi().insert(message.getAction().getText(), message.getAction().getPoz());
+        CBCASTNode.getCBCASTUi().insert(message.getAction().getText(), message.getAction().getPoz());
       } else {
-        node.getUi().remove(message.getAction().getPoz());
+        CBCASTNode.getCBCASTUi().remove(message.getAction().getPoz());
       }
       VT[message.getSourceId()]++;
 
-      messages.remove(message);
       return true;
     }
     return false;
@@ -74,10 +74,10 @@ public class CBCAST implements Protocol {
 
   @Override
   synchronized public void typedMessage(Action action) {
-    VT[node.getId()]++;
+    VT[CBCASTNode.getId()]++;
     int savedVT[] = new int[VT.length];
     System.arraycopy( VT, 0, savedVT, 0, VT.length );
-    networkManager.broadcastMessage(new Message(node.getId(), action, savedVT));
+    networkManager.broadcastMessage(new Message(CBCASTNode.getId(), action, savedVT));
   }
 
 

@@ -1,4 +1,4 @@
-package org.mihigh.acc.project.network;
+package org.mihigh.acc.project.communicator.communication;
 
 import java.util.Arrays;
 
@@ -6,11 +6,14 @@ import org.mihigh.acc.project.commons.Action;
 
 public class Message {
 
-  private final int sourceId;
-  private final Action action;
-  private final int[] vt;
+  protected int sourceId;
+  protected Action action;
+  protected int[] vt;
 
-  public Message (int sourceId, Action action, int VT[]){
+  public Message() {
+  }
+
+  public Message(int sourceId, Action action, int VT[]) {
     this.sourceId = sourceId;
     this.action = action;
     vt = VT;

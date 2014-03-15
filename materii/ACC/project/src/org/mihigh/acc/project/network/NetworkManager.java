@@ -5,19 +5,20 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-import org.mihigh.acc.project.communicator.Node;
+import org.mihigh.acc.project.communicator.communication.Message;
+import org.mihigh.acc.project.communicator.communication.cbcast.Node;
 
 public class NetworkManager implements Runnable {
 
   public static final NetworkManager instance = new NetworkManager();
 
-  private final List<Node> nodes = new ArrayList<Node>();
+  private final List<Node> Nodes = new ArrayList<Node>();
 
   private NetworkManager() {
   }
 
-  public void attach(Node node) {
-    nodes.add(node);
+  public void attach(Node Node) {
+    Nodes.add(Node);
   }
 
 
@@ -46,12 +47,12 @@ public class NetworkManager implements Runnable {
       }
 
       Message message = messages.get(random.nextInt(messages.size()));
-      for (int index = 0; index < nodes.size(); ++index) {
+      for (int index = 0; index < Nodes.size(); ++index) {
         if (index == message.getSourceId()) {
           continue;
         }
 
-        nodes.get(index).receiveMessage(message);
+        Nodes.get(index).receiveMessage(message);
       }
       messages.remove(message);
 
