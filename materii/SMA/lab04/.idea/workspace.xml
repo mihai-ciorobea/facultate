@@ -55,7 +55,7 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/my/MyAgent.java" line="99" class="my.MyAgent" package="my">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -81,28 +81,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sf.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/0/sf.txt">
+      <file leaf-file-name="Collections.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/util/Collections.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+            <state line="587" column="26" selection-start="24982" selection-end="24986" vertical-scroll-proportion="0.0" vertical-offset="8283" max-vertical-offset="59310">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyAgent.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MyAgent.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/my/MyAgent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="0" selection-start="3284" selection-end="3284" vertical-scroll-proportion="0.0" vertical-offset="1185" max-vertical-offset="2970">
+            <state line="145" column="40" selection-start="4922" selection-end="4922" vertical-scroll-proportion="0.71945703" vertical-offset="1662" max-vertical-offset="2835">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="si.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Predicate.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/blocksworld/Predicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="5" selection-start="1710" selection-end="1710" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="2175">
+              <folding>
+                <element signature="e#2785#2786#0" expanded="true" />
+                <element signature="e#2873#2874#0" expanded="true" />
+                <element signature="e#2911#2912#0" expanded="true" />
+                <element signature="e#3000#3001#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="si.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/0/si.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="43" selection-start="7" selection-end="7" vertical-scroll-proportion="0.101809956" vertical-offset="0" max-vertical-offset="442">
+            <state line="3" column="43" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
               <folding />
             </state>
           </provider>
@@ -110,24 +124,6 @@
       </file>
       <file leaf-file-name="sf1.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/1/sf1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sf2.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/1/sf2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="si.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/1/si.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
               <folding />
@@ -145,16 +141,16 @@
         </entry>
       </file>
       <file leaf-file-name="sf2.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/2/sf2.txt">
+        <entry file="file://$PROJECT_DIR$/tests/1/sf2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+            <state line="2" column="0" selection-start="2" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sf1.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/2/sf1.txt">
+      <file leaf-file-name="si.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/3/si.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
               <folding />
@@ -162,10 +158,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tester.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tester/Tester.java">
+      <file leaf-file-name="sf1.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/3/sf1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="53" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="1335">
+            <state line="3" column="28" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="si.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/1/si.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
               <folding />
             </state>
           </provider>
@@ -185,11 +190,11 @@
         <option value="$PROJECT_DIR$/src/blocksworld/Action.java" />
         <option value="$PROJECT_DIR$/src/blocksworld/Predicate.java" />
         <option value="$PROJECT_DIR$/src/blocksworld/BlocksWorld.java" />
+        <option value="$PROJECT_DIR$/tests/0/sf.txt" />
+        <option value="$PROJECT_DIR$/tests/0/si.txt" />
         <option value="$PROJECT_DIR$/src/blocksworld/Blocks.java" />
         <option value="$PROJECT_DIR$/src/my/MyAgent.java" />
         <option value="$PROJECT_DIR$/src/tester/Tester.java" />
-        <option value="$PROJECT_DIR$/tests/0/sf.txt" />
-        <option value="$PROJECT_DIR$/tests/0/si.txt" />
       </list>
     </option>
   </component>
@@ -212,7 +217,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -227,7 +232,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,6 +252,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -388,7 +397,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -401,6 +410,7 @@
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.Tester">
     <configuration default="false" name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -682,11 +692,12 @@
       <workItem from="1394641631395" duration="12394000" />
       <workItem from="1394722496184" duration="378000" />
       <workItem from="1394722875798" duration="11564000" />
+      <workItem from="1395246985917" duration="4153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24363000" />
+    <option name="totallyTimeSpent" value="28516000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -739,6 +750,34 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16714491" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40203562" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951653" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.562341" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951653" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -761,6 +800,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/tester/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="53" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/0/sf.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
@@ -778,38 +824,35 @@
     <entry file="file://$PROJECT_DIR$/src/blocksworld/Blocks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="92" column="44" selection-start="1772" selection-end="1772" vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="6735">
-          <folding>
-            <element signature="class#Block#0;class#Blocks#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blocksworld/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="125" column="7" selection-start="2983" selection-end="2983" vertical-scroll-proportion="0.0" vertical-offset="1525" max-vertical-offset="2280">
-          <folding />
+          <folding>
+            <element signature="e#2785#2786#0" expanded="true" />
+            <element signature="e#2873#2874#0" expanded="true" />
+            <element signature="e#2911#2912#0" expanded="true" />
+            <element signature="e#3000#3001#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="437" column="14" selection-start="20486" selection-end="20486" vertical-scroll-proportion="0.0" vertical-offset="6555" max-vertical-offset="6930">
-          <folding />
-        </state>
+        <state line="437" column="14" selection-start="20486" selection-end="20486" vertical-scroll-proportion="0.0" vertical-offset="6555" max-vertical-offset="6930" />
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/util/TreeMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="992" column="38" selection-start="35337" selection-end="35343" vertical-scroll-proportion="0.0" vertical-offset="14880" max-vertical-offset="36720">
-          <folding />
-        </state>
+        <state line="992" column="38" selection-start="35337" selection-end="35343" vertical-scroll-proportion="0.0" vertical-offset="14880" max-vertical-offset="36720" />
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/util/AbstractMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="441" column="24" selection-start="14872" selection-end="14884" vertical-scroll-proportion="0.0" vertical-offset="6615" max-vertical-offset="12420">
-          <folding />
-        </state>
+        <state line="441" column="24" selection-start="14872" selection-end="14884" vertical-scroll-proportion="0.0" vertical-offset="6615" max-vertical-offset="12420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blocksworld/BlocksWorld.java">
@@ -853,38 +896,35 @@
     <entry file="file://$PROJECT_DIR$/src/blocksworld/Blocks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="100" column="17" selection-start="1973" selection-end="1973" vertical-scroll-proportion="0.0" vertical-offset="1500" max-vertical-offset="7725">
-          <folding>
-            <element signature="class#Block#0;class#Blocks#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blocksworld/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="125" column="7" selection-start="2983" selection-end="2983" vertical-scroll-proportion="0.0" vertical-offset="1525" max-vertical-offset="2280">
-          <folding />
+          <folding>
+            <element signature="e#2785#2786#0" expanded="true" />
+            <element signature="e#2873#2874#0" expanded="true" />
+            <element signature="e#2911#2912#0" expanded="true" />
+            <element signature="e#3000#3001#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="437" column="14" selection-start="20486" selection-end="20486" vertical-scroll-proportion="0.0" vertical-offset="6555" max-vertical-offset="6930">
-          <folding />
-        </state>
+        <state line="437" column="14" selection-start="20486" selection-end="20486" vertical-scroll-proportion="0.0" vertical-offset="6555" max-vertical-offset="6930" />
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/util/TreeMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="992" column="38" selection-start="35337" selection-end="35343" vertical-scroll-proportion="0.0" vertical-offset="14880" max-vertical-offset="36720">
-          <folding />
-        </state>
+        <state line="992" column="38" selection-start="35337" selection-end="35343" vertical-scroll-proportion="0.0" vertical-offset="14880" max-vertical-offset="36720" />
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/util/AbstractMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="441" column="24" selection-start="14872" selection-end="14884" vertical-scroll-proportion="0.0" vertical-offset="6615" max-vertical-offset="12420">
-          <folding />
-        </state>
+        <state line="441" column="24" selection-start="14872" selection-end="14884" vertical-scroll-proportion="0.0" vertical-offset="6615" max-vertical-offset="12420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blocksworld/BlocksWorld.java">
@@ -921,9 +961,7 @@
     <entry file="file://$PROJECT_DIR$/src/tester/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="34" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="1350">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -974,46 +1012,22 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/io/FileOutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="323" column="17" selection-start="12417" selection-end="12417" vertical-scroll-proportion="0.76201373" vertical-offset="4137" max-vertical-offset="6945">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocksworld/Blocks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="29" selection-start="621" selection-end="621" vertical-scroll-proportion="0.4805492" vertical-offset="0" max-vertical-offset="6735">
-          <folding>
-            <element signature="class#Block#0;class#Blocks#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocksworld/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="7" selection-start="2983" selection-end="2983" vertical-scroll-proportion="0.80091536" vertical-offset="1525" max-vertical-offset="2280">
-          <folding />
-        </state>
+        <state line="323" column="17" selection-start="12417" selection-end="12417" vertical-scroll-proportion="0.76201373" vertical-offset="4137" max-vertical-offset="6945" />
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="437" column="14" selection-start="20486" selection-end="20486" vertical-scroll-proportion="0.14187643" vertical-offset="6493" max-vertical-offset="6930">
-          <folding />
-        </state>
+        <state line="437" column="14" selection-start="20486" selection-end="20486" vertical-scroll-proportion="0.14187643" vertical-offset="6493" max-vertical-offset="6930" />
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/util/TreeMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="992" column="38" selection-start="35337" selection-end="35343" vertical-scroll-proportion="0.0" vertical-offset="14880" max-vertical-offset="36720">
-          <folding />
-        </state>
+        <state line="992" column="38" selection-start="35337" selection-end="35343" vertical-scroll-proportion="0.0" vertical-offset="14880" max-vertical-offset="36720" />
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/util/AbstractMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="441" column="24" selection-start="14872" selection-end="14884" vertical-scroll-proportion="0.0" vertical-offset="6074" max-vertical-offset="11955">
-          <folding />
-        </state>
+        <state line="441" column="24" selection-start="14872" selection-end="14884" vertical-scroll-proportion="0.0" vertical-offset="6074" max-vertical-offset="11955" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blocksworld/BlocksWorld.java">
@@ -1033,16 +1047,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/my/MyAgent.java">
+    <entry file="file://$PROJECT_DIR$/tests/1/si.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="0" selection-start="3284" selection-end="3284" vertical-scroll-proportion="0.0" vertical-offset="1185" max-vertical-offset="2970">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/1/sf1.txt">
+    <entry file="file://$PROJECT_DIR$/tests/0/si.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="499">
+        <state line="3" column="43" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/0/sf.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocksworld/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="5" selection-start="1710" selection-end="1710" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="2175">
+          <folding>
+            <element signature="e#2785#2786#0" expanded="true" />
+            <element signature="e#2873#2874#0" expanded="true" />
+            <element signature="e#2911#2912#0" expanded="true" />
+            <element signature="e#3000#3001#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocksworld/Blocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="22" selection-start="650" selection-end="650" vertical-scroll-proportion="-0.13852243" vertical-offset="345" max-vertical-offset="7695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="587" column="26" selection-start="24982" selection-end="24986" vertical-scroll-proportion="0.0" vertical-offset="8283" max-vertical-offset="59310">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/1/sf2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="2" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/2/si.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="8" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
           <folding />
         </state>
       </provider>
@@ -1061,44 +1122,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/1/sf2.txt">
+    <entry file="file://$PROJECT_DIR$/tests/3/si.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/3/sf1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="28" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/1/sf1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="499">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/1/si.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/2/si.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="8" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tester/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="53" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="1335">
+        <state line="38" column="54" selection-start="897" selection-end="897" vertical-scroll-proportion="0.9321267" vertical-offset="8" max-vertical-offset="1335">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/0/sf.txt">
+    <entry file="file://$PROJECT_DIR$/src/my/MyAgent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/0/si.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="43" selection-start="7" selection-end="7" vertical-scroll-proportion="0.101809956" vertical-offset="0" max-vertical-offset="442">
+        <state line="145" column="40" selection-start="4922" selection-end="4922" vertical-scroll-proportion="0.71945703" vertical-offset="1662" max-vertical-offset="2835">
           <folding />
         </state>
       </provider>

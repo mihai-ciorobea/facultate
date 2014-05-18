@@ -4,7 +4,7 @@ public class Action {
 
   protected EventType eventType;
   protected String text;
-  protected int poz;
+  public int poz;
 
   public Action(EventType eventType, String text, int poz) {
     this.eventType = eventType;

@@ -13,6 +13,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -58,83 +59,7 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/abcast/ABCAST.java" line="87" class="org.mihigh.acc.project.communicator.communication.abcast.ABCAST" package="org.mihigh.acc.project.communicator.communication.abcast">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/abcast/ABCAST.java" line="29" class="org.mihigh.acc.project.communicator.communication.abcast.ABCAST" package="org.mihigh.acc.project.communicator.communication.abcast">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/abcast/ABCAST.java" line="40" class="org.mihigh.acc.project.communicator.communication.abcast.ABCAST" package="org.mihigh.acc.project.communicator.communication.abcast">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/abcast/ABCASTEventListener.java" line="24" class="org.mihigh.acc.project.communicator.communication.abcast.ABCASTEventListener" package="org.mihigh.acc.project.communicator.communication.abcast">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/abcast/ABCASTEventListener.java" line="43" class="org.mihigh.acc.project.communicator.communication.abcast.ABCASTEventListener" package="org.mihigh.acc.project.communicator.communication.abcast">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -144,53 +69,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ABCASTNode.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/abcast/ABCASTNode.java">
+      <file leaf-file-name="ActionProvider.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/application/ActionProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="44" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.36879432" vertical-offset="309" max-vertical-offset="1200">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#950#1241#0" expanded="true" />
-                <element signature="e#1234#1235#0" expanded="true" />
-                <element signature="e#2072#2073#0" expanded="true" />
-                <element signature="e#2098#2099#0" expanded="true" />
-              </folding>
+            <state line="66" column="74" selection-start="2490" selection-end="2503" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="1215">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ABCAST.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/abcast/ABCAST.java">
+      <file leaf-file-name="Jupiter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/jupiter/Jupiter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="34" selection-start="2157" selection-end="2157" vertical-scroll-proportion="0.0" vertical-offset="970" max-vertical-offset="1545">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1395#1409#0" expanded="true" />
-                <element signature="e#1580#1737#0" expanded="true" />
-                <element signature="e#1730#1731#0" expanded="true" />
-              </folding>
+            <state line="12" column="29" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1650">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ABCAST_UI.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/abcast/ABCAST_UI.java">
+      <file leaf-file-name="Dopt.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/dopt/Dopt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="39" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="75" column="8" selection-start="2179" selection-end="2181" vertical-scroll-proportion="0.6926121" vertical-offset="540" max-vertical-offset="1500">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ABCASTEventListener.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/abcast/ABCASTEventListener.java">
+      <file leaf-file-name="DoptMessage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/dopt/DoptMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0" vertical-offset="249" max-vertical-offset="930">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="20" column="12" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="645">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Action.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/commons/Action.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="42" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="720">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommunicationType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/application/CommunicationType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="8" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="180">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/application/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="31" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1140">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoptNode.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/dopt/DoptNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -205,47 +151,57 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/application/TestAreaDocumentListener.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/node/TestAreaDocumentListener.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/node/EventListener.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/node/Node.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/comunicator/EventListener.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/comunicator/Node.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/comunicator/CBCAST.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/comunicator/Communication.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/network/EventType.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/Communication.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/Protocol.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/network/Message.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/network/NetworkManager.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/network/Action.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/commons/Action.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/commons/ActionExtention.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/application/ActionProvider.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/CBCAST.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/ABCAST.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/abcast/Message.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/Message.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/abcast/MessageAbcst.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/EventListener.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/MyEventListener.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/CBCASTEventListener.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/application/CommunicationType.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/Node.java" />
         <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/UI.java" />
         <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/cbcast/UI.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/cbcast/CBCAST_UI.java" />
         <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/MyEventListener.java" />
         <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/abcast/CBCASTNode.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/cbcast/CBCASTEventListener.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/cbcast/CBCASTNode.java" />
         <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/cbcast/Node.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/application/Main.java" />
-        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/abcast/ABCAST.java" />
         <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/abcast/ABCASTEventListener.java" />
         <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/abcast/ABCAST_UI.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/centralized/ABCAST_UI.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/centralized/Centralize_UI.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/cbcast/CBCASTEventListener.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/threephase/Centralize_UI.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/threephase/ThreePhase_UI.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/network/Network1.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/cbcast/CBCASTNode.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/cbcast/CBCAST.java" />
         <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/abcast/ABCASTNode.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/abcast/ABCAST.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/centralized/CentralizeNode.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/centralized/Centralize.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/threephase/TreePhaseMessage.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/threephase/TreePhaseNetworkManager.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/threephase/ThreePhaseNode.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/threephase/ThreePhaseMessage.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/threephase/ThreePhase.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/network/NetworkManager.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/cbcast/CBCAST_UI.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/jupiter/DoptEventListener.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/jupiter/NetworkManager.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/Message.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/network/Network.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/Protocol.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/dopt/Dopt.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/dopt/Dopt_UI.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/dopt/DoptNode.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/Node.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/jupiter/JupiterNode.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/dopt/DoptNetworkManager.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/jupiter/JupiterMessage.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/jupiter/JupiterNetworkManager.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/jupiter/Jupiter.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/application/CommunicationType.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/application/ActionProvider.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/paxos/Distinguished.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/commons/Action.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/paxos/Message.java" />
+        <option value="$PROJECT_DIR$/../src/org/mihigh/acc/project/communicator/communication/centralized/Centralize_UI.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/paxos/Ui.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/paxos/Node.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/paxos/NetworkManager.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/paxos/Paxos.java" />
+        <option value="$PROJECT_DIR$/src/org/mihigh/acc/project/application/Main.java" />
       </list>
     </option>
   </component>
@@ -372,12 +328,23 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="ACC Project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ACC Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -446,7 +413,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cbcast" />
+              <option name="myItemId" value="jupiter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -472,7 +439,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="abcast" />
+              <option name="myItemId" value="dopt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -522,7 +489,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -538,7 +504,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="SearchEverywhereHistory" value="" />
+    <property name="SearchEverywhereHistory" value="&#10;&quot;&quot;" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -546,24 +512,36 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SMA/lab05" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.mihigh.acc.project.communicator.communication.jupiter" />
       <recent name="org.mihigh.acc.project.communicator.communication.abcast" />
       <recent name="org.mihigh.acc.project.communicator.communication.cbcast" />
       <recent name="org.mihigh.acc.project.communicator.communication" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/jupiter" />
+      <recent name="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/threephase" />
+      <recent name="$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/centralized" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.mihigh.acc.project.network" />
       <recent name="org.mihigh.acc.project.communicator.communication.cbcast" />
       <recent name="org.mihigh.acc.project.communicator" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.mihigh.acc.project.communicator.communication.threephase" />
       <recent name="org.mihigh.acc.project.communicator" />
       <recent name="org.mihigh.acc.project.commons" />
       <recent name="org.mihigh.acc.project.comunicator" />
       <recent name="org.mihigh.acc.project.application" />
-      <recent name="org.mihigh.acc.project.network" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -609,6 +587,73 @@
       <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -661,6 +706,26 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -739,6 +804,46 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
       <option name="BCName" value="" />
       <option name="launcherParameters">
@@ -785,6 +890,26 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -850,11 +975,21 @@
       <workItem from="1394568528023" duration="33797000" />
       <workItem from="1394713936441" duration="34000" />
       <workItem from="1394782677293" duration="18466000" />
+      <workItem from="1394925830037" duration="21699000" />
+      <workItem from="1395236889012" duration="7738000" />
+      <workItem from="1395424942428" duration="2386000" />
+      <workItem from="1395994092537" duration="1392000" />
+      <workItem from="1397157338910" duration="4853000" />
+      <workItem from="1397573809299" duration="14126000" />
+      <workItem from="1399922732566" duration="19290000" />
+      <workItem from="1400104005423" duration="419000" />
+      <workItem from="1400225024962" duration="557000" />
+      <workItem from="1400225589656" duration="994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52297000" />
+    <option name="totallyTimeSpent" value="125751000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -877,35 +1012,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="1436" height="878" extended-state="6" />
+    <frame x="4" y="22" width="1436" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3129771" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29389313" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24533716" sideWeight="0.5009488" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42620865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24031563" sideWeight="0.49905124" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34223917" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -934,9 +1070,65 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/cbcast/CBCASTNode.java">
+    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/application/ActionProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1035">
+        <state line="66" column="74" selection-start="2490" selection-end="2503" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/jupiter/Jupiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/dopt/Dopt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="33" selection-start="1893" selection-end="1893" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="1560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/dopt/DoptMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="12" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/commons/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="42" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/application/CommunicationType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="8" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/application/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="31" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/commons/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="9" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/application/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="62" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1125">
           <folding />
         </state>
       </provider>
@@ -957,32 +1149,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/commons/ActionExtention.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="23" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="345">
-          <folding />
-        </state>
+        <state line="3" column="23" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="345" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/Protocol.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="14" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="255">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/cbcast/CBCAST_UI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="10" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/cbcast/CBCAST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="14" selection-start="875" selection-end="875" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1350">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#539#548#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -996,16 +1169,6 @@
     <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/application/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="60" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="810">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#841#847#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/network/NetworkManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="23" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="1005">
           <folding />
         </state>
       </provider>
@@ -1028,11 +1191,6 @@
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/awt/Container.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1193" column="48" selection-start="46977" selection-end="46986" vertical-scroll-proportion="0.0" vertical-offset="16732" max-vertical-offset="72360" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="6" selection-start="4496" selection-end="4496" vertical-scroll-proportion="0.3767535" vertical-offset="1357" max-vertical-offset="30210" />
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/javax/swing/event/DocumentListener.java">
@@ -1092,155 +1250,112 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/commons/ActionExtention.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="23" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+        <state line="3" column="23" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/Protocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="28" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/commons/Action.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="11" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="690">
+        <state line="434" column="6" selection-start="19325" selection-end="19325" vertical-scroll-proportion="0.33193278" vertical-offset="6007" max-vertical-offset="8745">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/Message.java">
+    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/network/Network.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="12" selection-start="222" selection-end="222" vertical-scroll-proportion="0.28368795" vertical-offset="0" max-vertical-offset="630">
-          <folding>
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-          </folding>
+        <state line="8" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.21042085" vertical-offset="0" max-vertical-offset="499">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/network/NetworkManager.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/awt/event/ActionListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="23" selection-start="647" selection-end="647" vertical-scroll-proportion="0.69503546" vertical-offset="96" max-vertical-offset="1020">
+        <state line="49" column="16" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="38" selection-start="82" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="10" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.556213" vertical-offset="104" max-vertical-offset="780" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="327" column="21" selection-start="9831" selection-end="9831" vertical-scroll-proportion="0.7121535" vertical-offset="4556" max-vertical-offset="5025" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1268" column="35" selection-start="49620" selection-end="49620" vertical-scroll-proportion="0.33195022" vertical-offset="18245" max-vertical-offset="30210">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/application/CommunicationType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+        <state line="3" column="8" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/Protocol.java">
+    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/application/ActionProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="7" selection-start="184" selection-end="184" vertical-scroll-proportion="0.25210086" vertical-offset="0" max-vertical-offset="476">
+        <state line="66" column="74" selection-start="2490" selection-end="2503" vertical-scroll-proportion="0.0" vertical-offset="651" max-vertical-offset="1125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/cbcast/CBCASTNode.java">
+    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/dopt/DoptMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="36" selection-start="416" selection-end="416" vertical-scroll-proportion="0.08163265" vertical-offset="0" max-vertical-offset="870">
+        <state line="20" column="12" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/commons/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="42" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/application/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="18" selection-start="658" selection-end="658" vertical-scroll-proportion="0.45" vertical-offset="90" max-vertical-offset="960">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#841#847#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/cbcast/CBCAST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="74" selection-start="627" selection-end="627" vertical-scroll-proportion="0.655" vertical-offset="8" max-vertical-offset="1350">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#539#548#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/cbcast/CBCAST_UI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="63" selection-start="418" selection-end="418" vertical-scroll-proportion="0.39007092" vertical-offset="0" max-vertical-offset="990">
+        <state line="22" column="31" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1140">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/cbcast/CBCASTEventListener.java">
+    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/dopt/DoptNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="60" selection-start="288" selection-end="304" vertical-scroll-proportion="0.28368795" vertical-offset="0" max-vertical-offset="915">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/application/ActionProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="41" selection-start="1346" selection-end="1356" vertical-scroll-proportion="0.8392435" vertical-offset="215" max-vertical-offset="750">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/cbcast/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="40" selection-start="174" selection-end="174" vertical-scroll-proportion="0.14184397" vertical-offset="0" max-vertical-offset="423">
+        <state line="8" column="13" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/abcast/MessageAbcst.java">
+    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/jupiter/Jupiter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="9" selection-start="285" selection-end="285" vertical-scroll-proportion="0.234375" vertical-offset="0" max-vertical-offset="525">
+        <state line="12" column="29" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1650">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/abcast/ABCAST.java">
+    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/dopt/Dopt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="34" selection-start="2157" selection-end="2157" vertical-scroll-proportion="0.0" vertical-offset="970" max-vertical-offset="1545">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1395#1409#0" expanded="true" />
-            <element signature="e#1580#1737#0" expanded="true" />
-            <element signature="e#1730#1731#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/abcast/ABCASTEventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="930">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/abcast/ABCAST_UI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="39" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mihigh/acc/project/communicator/communication/abcast/ABCASTNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="44" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.36879432" vertical-offset="309" max-vertical-offset="1200">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#950#1241#0" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
-            <element signature="e#2072#2073#0" expanded="true" />
-            <element signature="e#2098#2099#0" expanded="true" />
-          </folding>
+        <state line="75" column="8" selection-start="2179" selection-end="2181" vertical-scroll-proportion="0.6926121" vertical-offset="540" max-vertical-offset="1500">
+          <folding />
         </state>
       </provider>
     </entry>
